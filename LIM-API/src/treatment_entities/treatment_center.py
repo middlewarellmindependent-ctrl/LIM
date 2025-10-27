@@ -1,21 +1,44 @@
 from copy import deepcopy
-from .entities import Treatment, PromptValidation, Treatmentinput
+from .entities import Treatment, PromptValidation
 
 from .validations import * 
 from .treatments import *
 
+from src.logger import logger
+
 class PromptValidationCenter:
 
     # A list where all PromptValidations are going to be registered
-    PromptValidations : list[PromptValidation] = []
+    PromptValidations : list[PromptValidation] = [
+            PromptValidation(name='length_validation', description='checks if the answer size is greater than 0', operation=len_test),
+            PromptValidation(name='key_equal_value_validation', description='checks if the answer is equal to the key', operation=key_test),
+            PromptValidation(name='and_validation', description='checks if the answer contains an addition mark', operation=and_test),
+            PromptValidation(name='att_validation', description='checks if the answer is equal to some processed key', operation=att_test),
+            PromptValidation(name='pronoun_validation', description='checks if there is an addition mark following a pronoun', operation=pronoun_test),
+            PromptValidation(name='entity_validation', description='checks if the answer is equal to the entity found', operation=entity_test),
+            PromptValidation(name='ignoring_validation', description='checks if the answer is ignoring some important information', operation=ignoring_test),
+            PromptValidation(name='float_validation', description='checks if the wanted value is a float value, and then discover if the model correctly find the value or only the integer part', operation=float_test),
+            PromptValidation(name='char_validation', description='checks if the answer has some noise characters', operation=char_test),
+            PromptValidation(name='in_msg_test', description='tests if the result is in the user message', operation=in_msg_test),
+            PromptValidation(name='ignoring_noun_test', description='tests if some noun are getting ignored on the entity finding process', operation=ignoring_noun_test)
+    ]
 
 class TreatmentCenter:
 
     # A list where all treatments are going to be registered
-    treatments : list[Treatment] = []
+    treatments : list[Treatment] = [
+        Treatment(name='extract_entity', description='Searchs for the first noun in the user message', operation=extract_entity),
+        Treatment(name='extract_attribute', description='Gets the word following the attribute key in the message', operation=extract_attribute),
+        Treatment(name='extract filter', description='Searches a new where claused based in where keywords', operation=find_filter)
+    ]
 
     # List of treatments that are made every tive before the regular ones
-    mandatory_treatments : list[Treatment] = []
+    mandatory_treatments : list[Treatment] = [
+        Treatment(name='similarity_filter', description='This treatment gets the interception between the response from the model and the user input', operation=similarity_filter),
+        Treatment(name='entity_filter', description='This treatment gets the first interception between the response from the model and the user input. it returns a single word as response', operation=entity_filter),
+        Treatment(name='intent_filter', description='Extracts the exact intent string from the model response', operation=intent_filter),
+        Treatment(name='clean_aux', description='in update operations takes of the attribuition marks in the answer', operation=clean_aux)    
+        ]
 
     """ 
         This is suposed to store the every pipeline of treatment
@@ -33,10 +56,10 @@ class TreatmentCenter:
         }   
     """
     # mandatory treatments, regular treatments and validations
-    treatment_lines : dict[str, tuple[ list[Treatment], list[Treatment], list[PromptValidation]  ]] = {'attributes_pipeline' : ([],[],[]),
-                                                                                      'entity_pipeline' : ([], [], []),
-                                                                                      'intent_pipeline' : ([], [], []),
-                                                                                      'filter_pipeline' : ([], [], [])
+    treatment_lines : dict[str, tuple[ list[Treatment], list[Treatment], list[PromptValidation]  ]] = {'attributes_pipeline' : ([mandatory_treatments[0], mandatory_treatments[3]],[treatments[1]],PromptValidationCenter.PromptValidations[:9]),
+                                                                                      'entity_pipeline' : ([mandatory_treatments[1]], [treatments[0]], [PromptValidationCenter.PromptValidations[10],PromptValidationCenter.PromptValidations[0],PromptValidationCenter.PromptValidations[9]]),
+                                                                                      'intent_pipeline' : ([mandatory_treatments[2]], [], []),
+                                                                                      'filter_pipeline' : ([], [treatments[2]], [PromptValidationCenter.PromptValidations[0],PromptValidationCenter.PromptValidations[9]])
                                                                                       }
     '''
     @classmethod
@@ -59,6 +82,7 @@ class TreatmentCenter:
         if validations:
             for validation in validations:
                 if not validation.operation(input):
+                    logger.info(f"answer [{input.value}] of [{input.user_input}] failed in validation: {validation.name}")
                     ok = False
                     break
         return ok
@@ -66,12 +90,15 @@ class TreatmentCenter:
     @classmethod
     def run_mandatory_treatments(cls, treatments : list, input : Treatmentinput):
         for treatment in treatments:
+            logger.info(f"mandatory treatment executed to [{input.value}] in [{input.user_input}] : {treatment.name}")
             input = treatment.operation(input)
+            logger.info(f"[{input.user_input}] after mandatory treatment: [{input.value}]")
         return input
 
 
     @classmethod
     def run_line(cls, line_name : str, input : Treatmentinput):
+        logger.info(f"treating: {input.value}, pipeline: {line_name}, user msg: {input.user_input}, key: {input.key}, entity: {input.current_entity}, intent: {input.current_intent}")
         mandatory_treatments, treatments, validations = cls.treatment_lines[line_name]
         # executing mandatory treatments
         input = cls.run_mandatory_treatments(treatments=mandatory_treatments, input=input)
@@ -91,12 +118,15 @@ class TreatmentCenter:
 
                 if cls.run_validations(input=input_, validations=validations):
                     input_.acceptable_answer = True
+                    logger.info(f"return acceptable: [{input_.value}]")
                     return input_
                 
                 if treatment:
                     input_ = treatment.operation(input) 
+                    logger.info(f"new input generated: [{input_.value}]")
                     input = cls.run_mandatory_treatments(treatments=mandatory_treatments, input=input_) # executing mandatory treatments for the new input.
 
         # Just returned it because dont really know what to do when nothing goes right 
         input.acceptable_answer = False
+        logger.info(f"return not acceptable: [{input.value}]")
         return input

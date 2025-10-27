@@ -1,24 +1,12 @@
-from ..config import COMPREHENSION_SERVICE_URL, QA_SERVICE_URL
 import requests
 
-def token_classification_service(text : str):
-    data = {
-        "func": "TOKEN_CLASSIFICATION",
-        "inputs": [
-            text
-        ]
-    }
-    response = requests.post(COMPREHENSION_SERVICE_URL, json=data)
-    return response.json()['data']
-'''
-def qa_service(variables : dict, model_name : str, prompt_type : str):
+from transformers import pipeline
+from sentence_transformers import SentenceTransformer
 
-    url = QA_SERVICE_URL + f'/{model_name}/query'
+def token_classification_service(msg : str):
+    ans = pipeline("token-classification", model='vblagoje/bert-english-uncased-finetuned-pos')(msg)
+    for element in ans:
+        element["score"] = element["score"].item() 
 
-    data = {
-    "variables": variables,
-    "prompt_type": prompt_type,
-    }
-    response = requests.post(url, json=data)
-    return response.json()
-'''
+    return ans
+

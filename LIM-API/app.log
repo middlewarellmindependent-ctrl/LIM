@@ -1,0 +1,952 @@
+2025-04-02 17:13:28,397 - INFO - treating: anderson martins gomes, pipeline: entity_pipeline, user msg: add student with name=anderson martins gomes, age=20, key: , entity: , intent: ADD
+2025-04-02 17:13:28,397 - INFO - mandatory treatment executed to [anderson martins gomes] in [add student with name=anderson martins gomes, age=20] : entity_filter
+2025-04-02 17:13:28,929 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: [anderson martins gomes]
+2025-04-02 17:13:29,310 - INFO - answer [anderson martins gomes] of [add student with name=anderson martins gomes, age=20] failed in validation: ignoring_noun_test
+2025-04-02 17:13:29,642 - INFO - new input generated: [student]
+2025-04-02 17:13:29,642 - INFO - mandatory treatment executed to [student] in [add student with name=anderson martins gomes, age=20] : entity_filter
+2025-04-02 17:13:30,198 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: [student]
+2025-04-02 17:13:30,552 - INFO - return acceptable: [student]
+2025-04-02 17:13:32,008 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add student with name=anderson martins gomes, age=20, key: name, entity: student, intent: ADD
+2025-04-02 17:13:32,008 - INFO - mandatory treatment executed to [name] in [add student with name=anderson martins gomes, age=20] : similarity_filter
+2025-04-02 17:13:32,008 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: []
+2025-04-02 17:13:32,008 - INFO - mandatory treatment executed to [] in [add student with name=anderson martins gomes, age=20] : clean_aux
+2025-04-02 17:13:32,008 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: []
+2025-04-02 17:13:32,008 - INFO - answer [] of [add student with name=anderson martins gomes, age=20] failed in validation: length_validation
+2025-04-02 17:13:32,008 - INFO - new input generated: [=anderson martins gomes]
+2025-04-02 17:13:32,008 - INFO - mandatory treatment executed to [=anderson martins gomes] in [add student with name=anderson martins gomes, age=20] : similarity_filter
+2025-04-02 17:13:32,008 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: [anderson martins gomes]
+2025-04-02 17:13:32,008 - INFO - mandatory treatment executed to [anderson martins gomes] in [add student with name=anderson martins gomes, age=20] : clean_aux
+2025-04-02 17:13:32,008 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: [anderson martins gomes]
+2025-04-02 17:13:33,603 - INFO - return acceptable: [anderson martins gomes]
+2025-04-02 17:13:35,142 - INFO - treating: age, pipeline: attributes_pipeline, user msg: add student with name=anderson martins gomes, age=20, key: age, entity: student, intent: ADD
+2025-04-02 17:13:35,142 - INFO - mandatory treatment executed to [age] in [add student with name=anderson martins gomes, age=20] : similarity_filter
+2025-04-02 17:13:35,142 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: []
+2025-04-02 17:13:35,142 - INFO - mandatory treatment executed to [] in [add student with name=anderson martins gomes, age=20] : clean_aux
+2025-04-02 17:13:35,142 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: []
+2025-04-02 17:13:35,142 - INFO - answer [] of [add student with name=anderson martins gomes, age=20] failed in validation: length_validation
+2025-04-02 17:13:35,142 - INFO - new input generated: [=20]
+2025-04-02 17:13:35,142 - INFO - mandatory treatment executed to [=20] in [add student with name=anderson martins gomes, age=20] : similarity_filter
+2025-04-02 17:13:35,142 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: [20]
+2025-04-02 17:13:35,142 - INFO - mandatory treatment executed to [20] in [add student with name=anderson martins gomes, age=20] : clean_aux
+2025-04-02 17:13:35,142 - INFO - [add student with name=anderson martins gomes, age=20] after mandatory treatment: [20]
+2025-04-02 17:13:36,647 - INFO - return acceptable: [20]
+2025-04-02 17:13:39,470 - INFO - treating: history of brazil, pipeline: entity_pipeline, user msg: add subject with name=brazilian history, description=the history of brazil, key: , entity: , intent: ADD
+2025-04-02 17:13:39,470 - INFO - mandatory treatment executed to [history of brazil] in [add subject with name=brazilian history, description=the history of brazil] : entity_filter
+2025-04-02 17:13:39,894 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: [history]
+2025-04-02 17:13:40,298 - INFO - answer [history] of [add subject with name=brazilian history, description=the history of brazil] failed in validation: ignoring_noun_test
+2025-04-02 17:13:40,717 - INFO - new input generated: [subject]
+2025-04-02 17:13:40,717 - INFO - mandatory treatment executed to [subject] in [add subject with name=brazilian history, description=the history of brazil] : entity_filter
+2025-04-02 17:13:41,112 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: [subject]
+2025-04-02 17:13:41,569 - INFO - return acceptable: [subject]
+2025-04-02 17:13:43,083 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add subject with name=brazilian history, description=the history of brazil, key: name, entity: subject, intent: ADD
+2025-04-02 17:13:43,083 - INFO - mandatory treatment executed to [name] in [add subject with name=brazilian history, description=the history of brazil] : similarity_filter
+2025-04-02 17:13:43,083 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: []
+2025-04-02 17:13:43,083 - INFO - mandatory treatment executed to [] in [add subject with name=brazilian history, description=the history of brazil] : clean_aux
+2025-04-02 17:13:43,083 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: []
+2025-04-02 17:13:43,083 - INFO - answer [] of [add subject with name=brazilian history, description=the history of brazil] failed in validation: length_validation
+2025-04-02 17:13:43,084 - INFO - new input generated: [=brazilian history]
+2025-04-02 17:13:43,084 - INFO - mandatory treatment executed to [=brazilian history] in [add subject with name=brazilian history, description=the history of brazil] : similarity_filter
+2025-04-02 17:13:43,084 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: [brazilian history]
+2025-04-02 17:13:43,084 - INFO - mandatory treatment executed to [brazilian history] in [add subject with name=brazilian history, description=the history of brazil] : clean_aux
+2025-04-02 17:13:43,084 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: [brazilian history]
+2025-04-02 17:13:44,590 - INFO - return acceptable: [brazilian history]
+2025-04-02 17:13:46,124 - INFO - treating: description, pipeline: attributes_pipeline, user msg: add subject with name=brazilian history, description=the history of brazil, key: description, entity: subject, intent: ADD
+2025-04-02 17:13:46,124 - INFO - mandatory treatment executed to [description] in [add subject with name=brazilian history, description=the history of brazil] : similarity_filter
+2025-04-02 17:13:46,124 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: []
+2025-04-02 17:13:46,124 - INFO - mandatory treatment executed to [] in [add subject with name=brazilian history, description=the history of brazil] : clean_aux
+2025-04-02 17:13:46,124 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: []
+2025-04-02 17:13:46,124 - INFO - answer [] of [add subject with name=brazilian history, description=the history of brazil] failed in validation: length_validation
+2025-04-02 17:13:46,124 - INFO - new input generated: [=the history of brazil]
+2025-04-02 17:13:46,124 - INFO - mandatory treatment executed to [=the history of brazil] in [add subject with name=brazilian history, description=the history of brazil] : similarity_filter
+2025-04-02 17:13:46,124 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: [the history of brazil]
+2025-04-02 17:13:46,124 - INFO - mandatory treatment executed to [the history of brazil] in [add subject with name=brazilian history, description=the history of brazil] : clean_aux
+2025-04-02 17:13:46,124 - INFO - [add subject with name=brazilian history, description=the history of brazil] after mandatory treatment: [the history of brazil]
+2025-04-02 17:13:47,659 - INFO - return acceptable: [the history of brazil]
+2025-04-02 17:13:50,433 - INFO - treating: ph@uece.br, pipeline: entity_pipeline, user msg: add teacher with name=paulo henrique, age=65, email=ph@uece.br, key: , entity: , intent: ADD
+2025-04-02 17:13:50,433 - INFO - mandatory treatment executed to [ph@uece.br] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : entity_filter
+2025-04-02 17:13:50,843 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [.]
+2025-04-02 17:13:51,255 - INFO - answer [.] of [add teacher with name=paulo henrique, age=65, email=ph@uece.br] failed in validation: ignoring_noun_test
+2025-04-02 17:13:51,678 - INFO - new input generated: [teacher]
+2025-04-02 17:13:51,678 - INFO - mandatory treatment executed to [teacher] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : entity_filter
+2025-04-02 17:13:52,000 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [teacher]
+2025-04-02 17:13:52,507 - INFO - return acceptable: [teacher]
+2025-04-02 17:13:54,157 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add teacher with name=paulo henrique, age=65, email=ph@uece.br, key: name, entity: teacher, intent: ADD
+2025-04-02 17:13:54,157 - INFO - mandatory treatment executed to [name] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:13:54,157 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:13:54,157 - INFO - mandatory treatment executed to [] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:13:54,157 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:13:54,157 - INFO - answer [] of [add teacher with name=paulo henrique, age=65, email=ph@uece.br] failed in validation: length_validation
+2025-04-02 17:13:54,157 - INFO - new input generated: [=paulo henrique]
+2025-04-02 17:13:54,157 - INFO - mandatory treatment executed to [=paulo henrique] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:13:54,157 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [paulo henrique]
+2025-04-02 17:13:54,157 - INFO - mandatory treatment executed to [paulo henrique] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:13:54,157 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [paulo henrique]
+2025-04-02 17:13:55,951 - INFO - return acceptable: [paulo henrique]
+2025-04-02 17:13:57,476 - INFO - treating: age, pipeline: attributes_pipeline, user msg: add teacher with name=paulo henrique, age=65, email=ph@uece.br, key: age, entity: teacher, intent: ADD
+2025-04-02 17:13:57,476 - INFO - mandatory treatment executed to [age] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:13:57,476 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:13:57,476 - INFO - mandatory treatment executed to [] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:13:57,476 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:13:57,476 - INFO - answer [] of [add teacher with name=paulo henrique, age=65, email=ph@uece.br] failed in validation: length_validation
+2025-04-02 17:13:57,476 - INFO - new input generated: [=65]
+2025-04-02 17:13:57,476 - INFO - mandatory treatment executed to [=65] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:13:57,476 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [65]
+2025-04-02 17:13:57,476 - INFO - mandatory treatment executed to [65] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:13:57,476 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [65]
+2025-04-02 17:13:58,921 - INFO - return acceptable: [65]
+2025-04-02 17:14:00,347 - INFO - treating: email, pipeline: attributes_pipeline, user msg: add teacher with name=paulo henrique, age=65, email=ph@uece.br, key: email, entity: teacher, intent: ADD
+2025-04-02 17:14:00,347 - INFO - mandatory treatment executed to [email] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:14:00,347 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:14:00,347 - INFO - mandatory treatment executed to [] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:14:00,347 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:14:00,347 - INFO - answer [] of [add teacher with name=paulo henrique, age=65, email=ph@uece.br] failed in validation: length_validation
+2025-04-02 17:14:00,347 - INFO - new input generated: [=ph@uece.br]
+2025-04-02 17:14:00,347 - INFO - mandatory treatment executed to [=ph@uece.br] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:14:00,347 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [ph@uecebr]
+2025-04-02 17:14:00,347 - INFO - mandatory treatment executed to [ph@uecebr] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:14:00,347 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [ph@uecebr]
+2025-04-02 17:14:01,695 - INFO - return acceptable: [ph@uecebr]
+2025-04-02 17:14:03,226 - INFO - treating: ph, pipeline: attributes_pipeline, user msg: add teacher with name=paulo henrique, age=65, email=ph@uece.br, key: ph, entity: teacher, intent: ADD
+2025-04-02 17:14:03,226 - INFO - mandatory treatment executed to [ph] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:14:03,226 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:14:03,226 - INFO - mandatory treatment executed to [] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:14:03,226 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:14:03,226 - INFO - answer [] of [add teacher with name=paulo henrique, age=65, email=ph@uece.br] failed in validation: length_validation
+2025-04-02 17:14:03,227 - INFO - new input generated: [@uece.br]
+2025-04-02 17:14:03,227 - INFO - mandatory treatment executed to [@uece.br] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:14:03,227 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [@uecebr]
+2025-04-02 17:14:03,227 - INFO - mandatory treatment executed to [@uecebr] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:14:03,227 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [@uecebr]
+2025-04-02 17:14:04,567 - INFO - return acceptable: [@uecebr]
+2025-04-02 17:14:06,257 - INFO - treating: ., pipeline: attributes_pipeline, user msg: add teacher with name=paulo henrique, age=65, email=ph@uece.br, key: ., entity: teacher, intent: ADD
+2025-04-02 17:14:06,257 - INFO - mandatory treatment executed to [.] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:14:06,257 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:14:06,257 - INFO - mandatory treatment executed to [] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:14:06,257 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: []
+2025-04-02 17:14:06,257 - INFO - answer [] of [add teacher with name=paulo henrique, age=65, email=ph@uece.br] failed in validation: length_validation
+2025-04-02 17:14:06,257 - INFO - new input generated: [br]
+2025-04-02 17:14:06,257 - INFO - mandatory treatment executed to [br] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : similarity_filter
+2025-04-02 17:14:06,258 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [br]
+2025-04-02 17:14:06,258 - INFO - mandatory treatment executed to [br] in [add teacher with name=paulo henrique, age=65, email=ph@uece.br] : clean_aux
+2025-04-02 17:14:06,258 - INFO - [add teacher with name=paulo henrique, age=65, email=ph@uece.br] after mandatory treatment: [br]
+2025-04-02 17:14:07,622 - INFO - return acceptable: [br]
+2025-04-02 17:14:09,857 - INFO - treating: math, pipeline: entity_pipeline, user msg: add subject with name=math, description=the best subject ever, key: , entity: , intent: ADD
+2025-04-02 17:14:09,857 - INFO - mandatory treatment executed to [math] in [add subject with name=math, description=the best subject ever] : entity_filter
+2025-04-02 17:14:10,390 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: [math]
+2025-04-02 17:14:10,996 - INFO - answer [math] of [add subject with name=math, description=the best subject ever] failed in validation: ignoring_noun_test
+2025-04-02 17:14:11,319 - INFO - new input generated: [subject]
+2025-04-02 17:14:11,320 - INFO - mandatory treatment executed to [subject] in [add subject with name=math, description=the best subject ever] : entity_filter
+2025-04-02 17:14:11,720 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: [subject]
+2025-04-02 17:14:12,047 - INFO - answer [subject] of [add subject with name=math, description=the best subject ever] failed in validation: ignoring_noun_test
+2025-04-02 17:14:12,048 - INFO - return not acceptable: [subject]
+2025-04-02 17:14:13,761 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add subject with name=math, description=the best subject ever, key: name, entity: subject, intent: ADD
+2025-04-02 17:14:13,761 - INFO - mandatory treatment executed to [name] in [add subject with name=math, description=the best subject ever] : similarity_filter
+2025-04-02 17:14:13,761 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: []
+2025-04-02 17:14:13,761 - INFO - mandatory treatment executed to [] in [add subject with name=math, description=the best subject ever] : clean_aux
+2025-04-02 17:14:13,761 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: []
+2025-04-02 17:14:13,762 - INFO - answer [] of [add subject with name=math, description=the best subject ever] failed in validation: length_validation
+2025-04-02 17:14:13,762 - INFO - new input generated: [=math]
+2025-04-02 17:14:13,762 - INFO - mandatory treatment executed to [=math] in [add subject with name=math, description=the best subject ever] : similarity_filter
+2025-04-02 17:14:13,762 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: [math]
+2025-04-02 17:14:13,762 - INFO - mandatory treatment executed to [math] in [add subject with name=math, description=the best subject ever] : clean_aux
+2025-04-02 17:14:13,762 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: [math]
+2025-04-02 17:14:15,252 - INFO - return acceptable: [math]
+2025-04-02 17:14:16,875 - INFO - treating: description, pipeline: attributes_pipeline, user msg: add subject with name=math, description=the best subject ever, key: description, entity: subject, intent: ADD
+2025-04-02 17:14:16,875 - INFO - mandatory treatment executed to [description] in [add subject with name=math, description=the best subject ever] : similarity_filter
+2025-04-02 17:14:16,875 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: []
+2025-04-02 17:14:16,875 - INFO - mandatory treatment executed to [] in [add subject with name=math, description=the best subject ever] : clean_aux
+2025-04-02 17:14:16,875 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: []
+2025-04-02 17:14:16,875 - INFO - answer [] of [add subject with name=math, description=the best subject ever] failed in validation: length_validation
+2025-04-02 17:14:16,875 - INFO - new input generated: [=the best subject ever]
+2025-04-02 17:14:16,875 - INFO - mandatory treatment executed to [=the best subject ever] in [add subject with name=math, description=the best subject ever] : similarity_filter
+2025-04-02 17:14:16,875 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: [the best subject ever]
+2025-04-02 17:14:16,875 - INFO - mandatory treatment executed to [the best subject ever] in [add subject with name=math, description=the best subject ever] : clean_aux
+2025-04-02 17:14:16,875 - INFO - [add subject with name=math, description=the best subject ever] after mandatory treatment: [the best subject ever]
+2025-04-02 17:14:18,395 - INFO - return acceptable: [the best subject ever]
+2025-04-02 17:14:21,215 - INFO - treating: math, pipeline: entity_pipeline, user msg: add subject with name=math, description='the best subject ever!', key: , entity: , intent: ADD
+2025-04-02 17:14:21,215 - INFO - mandatory treatment executed to [math] in [add subject with name=math, description='the best subject ever!'] : entity_filter
+2025-04-02 17:14:23,292 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: [math]
+2025-04-02 17:14:23,617 - INFO - answer [math] of [add subject with name=math, description='the best subject ever!'] failed in validation: ignoring_noun_test
+2025-04-02 17:14:24,009 - INFO - new input generated: [subject]
+2025-04-02 17:14:24,009 - INFO - mandatory treatment executed to [subject] in [add subject with name=math, description='the best subject ever!'] : entity_filter
+2025-04-02 17:14:24,415 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: [subject]
+2025-04-02 17:14:24,872 - INFO - answer [subject] of [add subject with name=math, description='the best subject ever!'] failed in validation: ignoring_noun_test
+2025-04-02 17:14:24,873 - INFO - return not acceptable: [subject]
+2025-04-02 17:14:26,384 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add subject with name=math, description='the best subject ever!', key: name, entity: subject, intent: ADD
+2025-04-02 17:14:26,384 - INFO - mandatory treatment executed to [name] in [add subject with name=math, description='the best subject ever!'] : similarity_filter
+2025-04-02 17:14:26,384 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: []
+2025-04-02 17:14:26,384 - INFO - mandatory treatment executed to [] in [add subject with name=math, description='the best subject ever!'] : clean_aux
+2025-04-02 17:14:26,384 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: []
+2025-04-02 17:14:26,384 - INFO - answer [] of [add subject with name=math, description='the best subject ever!'] failed in validation: length_validation
+2025-04-02 17:14:26,384 - INFO - new input generated: [=math]
+2025-04-02 17:14:26,384 - INFO - mandatory treatment executed to [=math] in [add subject with name=math, description='the best subject ever!'] : similarity_filter
+2025-04-02 17:14:26,384 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: [math]
+2025-04-02 17:14:26,385 - INFO - mandatory treatment executed to [math] in [add subject with name=math, description='the best subject ever!'] : clean_aux
+2025-04-02 17:14:26,385 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: [math]
+2025-04-02 17:14:27,905 - INFO - return acceptable: [math]
+2025-04-02 17:14:29,387 - INFO - treating: description, pipeline: attributes_pipeline, user msg: add subject with name=math, description='the best subject ever!', key: description, entity: subject, intent: ADD
+2025-04-02 17:14:29,387 - INFO - mandatory treatment executed to [description] in [add subject with name=math, description='the best subject ever!'] : similarity_filter
+2025-04-02 17:14:29,387 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: []
+2025-04-02 17:14:29,387 - INFO - mandatory treatment executed to [] in [add subject with name=math, description='the best subject ever!'] : clean_aux
+2025-04-02 17:14:29,387 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: []
+2025-04-02 17:14:29,387 - INFO - answer [] of [add subject with name=math, description='the best subject ever!'] failed in validation: length_validation
+2025-04-02 17:14:29,387 - INFO - new input generated: [='the best subject ever!']
+2025-04-02 17:14:29,387 - INFO - mandatory treatment executed to [='the best subject ever!'] in [add subject with name=math, description='the best subject ever!'] : similarity_filter
+2025-04-02 17:14:29,387 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: ['the best subject ever!']
+2025-04-02 17:14:29,387 - INFO - mandatory treatment executed to ['the best subject ever!'] in [add subject with name=math, description='the best subject ever!'] : clean_aux
+2025-04-02 17:14:29,387 - INFO - [add subject with name=math, description='the best subject ever!'] after mandatory treatment: ['the best subject ever!']
+2025-04-02 17:14:30,970 - INFO - return acceptable: ['the best subject ever!']
+2025-04-02 17:14:33,456 - INFO - treating: adolescent, pipeline: entity_pipeline, user msg: add student name=anderson, key: , entity: , intent: ADD
+2025-04-02 17:14:33,456 - INFO - mandatory treatment executed to [adolescent] in [add student name=anderson] : entity_filter
+2025-04-02 17:14:33,835 - INFO - [add student name=anderson] after mandatory treatment: [adolescent]
+2025-04-02 17:14:34,146 - INFO - answer [adolescent] of [add student name=anderson] failed in validation: in_msg_test
+2025-04-02 17:14:34,554 - INFO - new input generated: [student]
+2025-04-02 17:14:34,554 - INFO - mandatory treatment executed to [student] in [add student name=anderson] : entity_filter
+2025-04-02 17:14:35,033 - INFO - [add student name=anderson] after mandatory treatment: [student]
+2025-04-02 17:14:35,379 - INFO - return acceptable: [student]
+2025-04-02 17:14:36,811 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add student name=anderson, key: name, entity: student, intent: ADD
+2025-04-02 17:14:36,811 - INFO - mandatory treatment executed to [name] in [add student name=anderson] : similarity_filter
+2025-04-02 17:14:36,811 - INFO - [add student name=anderson] after mandatory treatment: []
+2025-04-02 17:14:36,811 - INFO - mandatory treatment executed to [] in [add student name=anderson] : clean_aux
+2025-04-02 17:14:36,811 - INFO - [add student name=anderson] after mandatory treatment: []
+2025-04-02 17:14:36,812 - INFO - answer [] of [add student name=anderson] failed in validation: length_validation
+2025-04-02 17:14:36,812 - INFO - new input generated: [=anderson]
+2025-04-02 17:14:36,812 - INFO - mandatory treatment executed to [=anderson] in [add student name=anderson] : similarity_filter
+2025-04-02 17:14:36,812 - INFO - [add student name=anderson] after mandatory treatment: [anderson]
+2025-04-02 17:14:36,812 - INFO - mandatory treatment executed to [anderson] in [add student name=anderson] : clean_aux
+2025-04-02 17:14:36,812 - INFO - [add student name=anderson] after mandatory treatment: [anderson]
+2025-04-02 17:14:38,343 - INFO - return acceptable: [anderson]
+2025-04-02 17:14:40,557 - INFO - treating: anderson, pipeline: entity_pipeline, user msg: get students with name anderson, key: , entity: , intent: READ
+2025-04-02 17:14:40,557 - INFO - mandatory treatment executed to [anderson] in [get students with name anderson] : entity_filter
+2025-04-02 17:14:40,908 - INFO - [get students with name anderson] after mandatory treatment: [anderson]
+2025-04-02 17:14:41,304 - INFO - answer [anderson] of [get students with name anderson] failed in validation: ignoring_noun_test
+2025-04-02 17:14:41,728 - INFO - new input generated: [students]
+2025-04-02 17:14:41,728 - INFO - mandatory treatment executed to [students] in [get students with name anderson] : entity_filter
+2025-04-02 17:14:42,135 - INFO - [get students with name anderson] after mandatory treatment: [students]
+2025-04-02 17:14:42,558 - INFO - return acceptable: [students]
+2025-04-02 17:14:44,061 - INFO - treating: name, pipeline: attributes_pipeline, user msg: get students with name anderson, key: name, entity: student, intent: READ
+2025-04-02 17:14:44,061 - INFO - mandatory treatment executed to [name] in [get students with name anderson] : similarity_filter
+2025-04-02 17:14:44,061 - INFO - [get students with name anderson] after mandatory treatment: []
+2025-04-02 17:14:44,070 - INFO - mandatory treatment executed to [] in [get students with name anderson] : clean_aux
+2025-04-02 17:14:44,070 - INFO - [get students with name anderson] after mandatory treatment: []
+2025-04-02 17:14:44,070 - INFO - answer [] of [get students with name anderson] failed in validation: length_validation
+2025-04-02 17:14:44,070 - INFO - new input generated: [ anderson]
+2025-04-02 17:14:44,070 - INFO - mandatory treatment executed to [ anderson] in [get students with name anderson] : similarity_filter
+2025-04-02 17:14:44,070 - INFO - [get students with name anderson] after mandatory treatment: [anderson]
+2025-04-02 17:14:44,070 - INFO - mandatory treatment executed to [anderson] in [get students with name anderson] : clean_aux
+2025-04-02 17:14:44,071 - INFO - [get students with name anderson] after mandatory treatment: [anderson]
+2025-04-02 17:14:45,520 - INFO - return acceptable: [anderson]
+2025-04-02 17:14:47,923 - INFO - treating: teachers, pipeline: entity_pipeline, user msg: show me the teachers, key: , entity: , intent: READ
+2025-04-02 17:14:47,923 - INFO - mandatory treatment executed to [teachers] in [show me the teachers] : entity_filter
+2025-04-02 17:14:48,297 - INFO - [show me the teachers] after mandatory treatment: [teachers]
+2025-04-02 17:14:48,785 - INFO - return acceptable: [teachers]
+2025-04-02 17:14:50,887 - INFO - treating: teacher, pipeline: entity_pipeline, user msg: show teachers, key: , entity: , intent: READ
+2025-04-02 17:14:50,887 - INFO - mandatory treatment executed to [teacher] in [show teachers] : entity_filter
+2025-04-02 17:14:51,259 - INFO - [show teachers] after mandatory treatment: [teacher]
+2025-04-02 17:14:51,667 - INFO - return acceptable: [teacher]
+2025-04-02 17:14:54,298 - INFO - treating: Yes, pipeline: intent_pipeline, user msg: show teacher, key: , entity: , intent: 
+2025-04-02 17:14:54,298 - INFO - mandatory treatment executed to [Yes] in [show teacher] : intent_filter
+2025-04-02 17:14:54,298 - INFO - [show teacher] after mandatory treatment: [Yes]
+2025-04-02 17:14:54,299 - INFO - return acceptable: [Yes]
+2025-04-02 17:14:56,041 - INFO - treating: DELETE, pipeline: intent_pipeline, user msg: show teacher, key: , entity: , intent: 
+2025-04-02 17:14:56,041 - INFO - mandatory treatment executed to [DELETE] in [show teacher] : intent_filter
+2025-04-02 17:14:56,041 - INFO - [show teacher] after mandatory treatment: [DELETE]
+2025-04-02 17:14:56,041 - INFO - return acceptable: [DELETE]
+2025-04-02 17:14:57,338 - INFO - treating: teacher, pipeline: entity_pipeline, user msg: show teacher, key: , entity: , intent: DELETE
+2025-04-02 17:14:57,338 - INFO - mandatory treatment executed to [teacher] in [show teacher] : entity_filter
+2025-04-02 17:14:57,916 - INFO - [show teacher] after mandatory treatment: [teacher]
+2025-04-02 17:14:58,318 - INFO - answer [teacher] of [show teacher] failed in validation: ignoring_noun_test
+2025-04-02 17:14:58,730 - INFO - new input generated: [show]
+2025-04-02 17:14:58,730 - INFO - mandatory treatment executed to [show] in [show teacher] : entity_filter
+2025-04-02 17:14:59,139 - INFO - [show teacher] after mandatory treatment: [show]
+2025-04-02 17:14:59,533 - INFO - return acceptable: [show]
+2025-04-02 17:15:01,004 - INFO - treating: teacher, pipeline: attributes_pipeline, user msg: show teacher, key: teacher, entity: show, intent: DELETE
+2025-04-02 17:15:01,004 - INFO - mandatory treatment executed to [teacher] in [show teacher] : similarity_filter
+2025-04-02 17:15:01,004 - INFO - [show teacher] after mandatory treatment: []
+2025-04-02 17:15:01,004 - INFO - mandatory treatment executed to [] in [show teacher] : clean_aux
+2025-04-02 17:15:01,004 - INFO - [show teacher] after mandatory treatment: []
+2025-04-02 17:15:01,004 - INFO - answer [] of [show teacher] failed in validation: length_validation
+2025-04-02 17:15:01,004 - INFO - new input generated: []
+2025-04-02 17:15:01,004 - INFO - mandatory treatment executed to [] in [show teacher] : similarity_filter
+2025-04-02 17:15:01,004 - INFO - [show teacher] after mandatory treatment: []
+2025-04-02 17:15:01,004 - INFO - mandatory treatment executed to [] in [show teacher] : clean_aux
+2025-04-02 17:15:01,004 - INFO - [show teacher] after mandatory treatment: []
+2025-04-02 17:15:01,004 - INFO - answer [] of [show teacher] failed in validation: length_validation
+2025-04-02 17:15:01,004 - INFO - return not acceptable: []
+2025-04-02 17:15:03,273 - INFO - treating: 900, pipeline: entity_pipeline, user msg: include outcome value 900, date is today, and description is "adjusting the numbers", key: , entity: , intent: ADD
+2025-04-02 17:15:03,273 - INFO - mandatory treatment executed to [900] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : entity_filter
+2025-04-02 17:15:03,643 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [900]
+2025-04-02 17:15:04,067 - INFO - answer [900] of [include outcome value 900, date is today, and description is "adjusting the numbers"] failed in validation: ignoring_noun_test
+2025-04-02 17:15:04,479 - INFO - new input generated: [outcome]
+2025-04-02 17:15:04,479 - INFO - mandatory treatment executed to [outcome] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : entity_filter
+2025-04-02 17:15:04,909 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [outcome]
+2025-04-02 17:15:05,302 - INFO - return acceptable: [outcome]
+2025-04-02 17:15:07,323 - INFO - treating: value, pipeline: attributes_pipeline, user msg: include outcome value 900, date is today, and description is "adjusting the numbers", key: value, entity: outcome, intent: ADD
+2025-04-02 17:15:07,323 - INFO - mandatory treatment executed to [value] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : similarity_filter
+2025-04-02 17:15:07,323 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: []
+2025-04-02 17:15:07,323 - INFO - mandatory treatment executed to [] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : clean_aux
+2025-04-02 17:15:07,323 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: []
+2025-04-02 17:15:07,323 - INFO - answer [] of [include outcome value 900, date is today, and description is "adjusting the numbers"] failed in validation: length_validation
+2025-04-02 17:15:07,323 - INFO - new input generated: [ 900, date is today,]
+2025-04-02 17:15:07,323 - INFO - mandatory treatment executed to [ 900, date is today,] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : similarity_filter
+2025-04-02 17:15:07,324 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [900 date is today]
+2025-04-02 17:15:07,324 - INFO - mandatory treatment executed to [900 date is today] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : clean_aux
+2025-04-02 17:15:07,324 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [900 date is today]
+2025-04-02 17:15:08,974 - INFO - return acceptable: [900 date is today]
+2025-04-02 17:15:10,331 - INFO - treating: date, pipeline: attributes_pipeline, user msg: include outcome value 900, date is today, and description is "adjusting the numbers", key: date, entity: outcome, intent: ADD
+2025-04-02 17:15:10,331 - INFO - mandatory treatment executed to [date] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : similarity_filter
+2025-04-02 17:15:10,331 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: []
+2025-04-02 17:15:10,332 - INFO - mandatory treatment executed to [] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : clean_aux
+2025-04-02 17:15:10,332 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: []
+2025-04-02 17:15:10,332 - INFO - answer [] of [include outcome value 900, date is today, and description is "adjusting the numbers"] failed in validation: length_validation
+2025-04-02 17:15:10,332 - INFO - new input generated: [ is today,]
+2025-04-02 17:15:10,332 - INFO - mandatory treatment executed to [ is today,] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : similarity_filter
+2025-04-02 17:15:10,332 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [is today]
+2025-04-02 17:15:10,332 - INFO - mandatory treatment executed to [is today] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : clean_aux
+2025-04-02 17:15:10,332 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [is today]
+2025-04-02 17:15:11,841 - INFO - return acceptable: [is today]
+2025-04-02 17:15:13,240 - INFO - treating: date, pipeline: attributes_pipeline, user msg: include outcome value 900, date is today, and description is "adjusting the numbers", key: description, entity: outcome, intent: ADD
+2025-04-02 17:15:13,241 - INFO - mandatory treatment executed to [date] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : similarity_filter
+2025-04-02 17:15:13,241 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: []
+2025-04-02 17:15:13,241 - INFO - mandatory treatment executed to [] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : clean_aux
+2025-04-02 17:15:13,241 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: []
+2025-04-02 17:15:13,241 - INFO - answer [] of [include outcome value 900, date is today, and description is "adjusting the numbers"] failed in validation: length_validation
+2025-04-02 17:15:13,241 - INFO - new input generated: [ is "adjusting the numbers"]
+2025-04-02 17:15:13,241 - INFO - mandatory treatment executed to [ is "adjusting the numbers"] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : similarity_filter
+2025-04-02 17:15:13,241 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [is "adjusting the numbers"]
+2025-04-02 17:15:13,241 - INFO - mandatory treatment executed to [is "adjusting the numbers"] in [include outcome value 900, date is today, and description is "adjusting the numbers"] : clean_aux
+2025-04-02 17:15:13,241 - INFO - [include outcome value 900, date is today, and description is "adjusting the numbers"] after mandatory treatment: [is "adjusting the numbers"]
+2025-04-02 17:15:14,807 - INFO - return acceptable: [is "adjusting the numbers"]
+2025-04-02 17:15:17,097 - INFO - treating: invoices, pipeline: entity_pipeline, user msg: get invoices, key: , entity: , intent: READ
+2025-04-02 17:15:17,097 - INFO - mandatory treatment executed to [invoices] in [get invoices] : entity_filter
+2025-04-02 17:15:17,464 - INFO - [get invoices] after mandatory treatment: [##ices]
+2025-04-02 17:15:17,978 - INFO - answer [##ices] of [get invoices] failed in validation: ignoring_noun_test
+2025-04-02 17:15:18,389 - INFO - new input generated: [in]
+2025-04-02 17:15:18,389 - INFO - mandatory treatment executed to [in] in [get invoices] : entity_filter
+2025-04-02 17:15:18,795 - INFO - [get invoices] after mandatory treatment: [in]
+2025-04-02 17:15:19,209 - INFO - return acceptable: [in]
+2025-04-02 17:15:20,900 - INFO - treating: invoices, pipeline: attributes_pipeline, user msg: get invoices, key: invoices, entity: in, intent: READ
+2025-04-02 17:15:20,900 - INFO - mandatory treatment executed to [invoices] in [get invoices] : similarity_filter
+2025-04-02 17:15:20,900 - INFO - [get invoices] after mandatory treatment: []
+2025-04-02 17:15:20,900 - INFO - mandatory treatment executed to [] in [get invoices] : clean_aux
+2025-04-02 17:15:20,900 - INFO - [get invoices] after mandatory treatment: []
+2025-04-02 17:15:20,900 - INFO - answer [] of [get invoices] failed in validation: length_validation
+2025-04-02 17:15:20,900 - INFO - new input generated: []
+2025-04-02 17:15:20,900 - INFO - mandatory treatment executed to [] in [get invoices] : similarity_filter
+2025-04-02 17:15:20,900 - INFO - [get invoices] after mandatory treatment: []
+2025-04-02 17:15:20,900 - INFO - mandatory treatment executed to [] in [get invoices] : clean_aux
+2025-04-02 17:15:20,900 - INFO - [get invoices] after mandatory treatment: []
+2025-04-02 17:15:20,900 - INFO - answer [] of [get invoices] failed in validation: length_validation
+2025-04-02 17:15:20,900 - INFO - return not acceptable: []
+2025-04-02 17:15:23,078 - INFO - treating: module x, pipeline: entity_pipeline, user msg: add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10, key: , entity: , intent: ADD
+2025-04-02 17:15:23,078 - INFO - mandatory treatment executed to [module x] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : entity_filter
+2025-04-02 17:15:23,616 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [x]
+2025-04-02 17:15:23,937 - INFO - answer [x] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: ignoring_noun_test
+2025-04-02 17:15:24,359 - INFO - new input generated: [test]
+2025-04-02 17:15:24,359 - INFO - mandatory treatment executed to [test] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : entity_filter
+2025-04-02 17:15:24,741 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [test]
+2025-04-02 17:15:25,514 - INFO - return acceptable: [test]
+2025-04-02 17:15:26,895 - INFO - treating: scope, pipeline: attributes_pipeline, user msg: add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10, key: scope, entity: test, intent: ADD
+2025-04-02 17:15:26,895 - INFO - mandatory treatment executed to [scope] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:26,895 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:26,895 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:26,895 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:26,895 - INFO - answer [] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: length_validation
+2025-04-02 17:15:26,895 - INFO - new input generated: [=module x]
+2025-04-02 17:15:26,895 - INFO - mandatory treatment executed to [=module x] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:26,895 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [module]
+2025-04-02 17:15:26,895 - INFO - mandatory treatment executed to [module] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:26,895 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [module]
+2025-04-02 17:15:28,314 - INFO - return acceptable: [module]
+2025-04-02 17:15:29,779 - INFO - treating: scope, pipeline: attributes_pipeline, user msg: add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10, key: x, entity: test, intent: ADD
+2025-04-02 17:15:29,779 - INFO - mandatory treatment executed to [scope] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:29,779 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:29,779 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:29,779 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:29,779 - INFO - answer [] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: length_validation
+2025-04-02 17:15:29,779 - INFO - new input generated: []
+2025-04-02 17:15:29,779 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:29,779 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:29,779 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:29,779 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:29,779 - INFO - answer [] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: length_validation
+2025-04-02 17:15:29,779 - INFO - return not acceptable: []
+2025-04-02 17:15:31,437 - INFO - treating: date, pipeline: attributes_pipeline, user msg: add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10, key: date, entity: test, intent: ADD
+2025-04-02 17:15:31,437 - INFO - mandatory treatment executed to [date] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:31,437 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:31,437 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:31,437 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:31,437 - INFO - answer [] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: length_validation
+2025-04-02 17:15:31,437 - INFO - new input generated: [=01/01/2022]
+2025-04-02 17:15:31,437 - INFO - mandatory treatment executed to [=01/01/2022] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:31,437 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [01/01/2022]
+2025-04-02 17:15:31,437 - INFO - mandatory treatment executed to [01/01/2022] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:31,437 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [01/01/2022]
+2025-04-02 17:15:33,061 - INFO - return acceptable: [01/01/2022]
+2025-04-02 17:15:34,672 - INFO - treating: timeout, pipeline: attributes_pipeline, user msg: add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10, key: timeout, entity: test, intent: ADD
+2025-04-02 17:15:34,672 - INFO - mandatory treatment executed to [timeout] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:34,672 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:34,672 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:34,672 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:34,672 - INFO - answer [] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: length_validation
+2025-04-02 17:15:34,672 - INFO - new input generated: [ = 100]
+2025-04-02 17:15:34,672 - INFO - mandatory treatment executed to [ = 100] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:34,672 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [100]
+2025-04-02 17:15:34,672 - INFO - mandatory treatment executed to [100] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:34,672 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [100]
+2025-04-02 17:15:36,225 - INFO - return acceptable: [100]
+2025-04-02 17:15:37,757 - INFO - treating: timeout, pipeline: attributes_pipeline, user msg: add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10, key: limit, entity: test, intent: ADD
+2025-04-02 17:15:37,757 - INFO - mandatory treatment executed to [timeout] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:37,757 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:37,757 - INFO - mandatory treatment executed to [] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:37,757 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: []
+2025-04-02 17:15:37,757 - INFO - answer [] of [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] failed in validation: length_validation
+2025-04-02 17:15:37,757 - INFO - new input generated: [=10]
+2025-04-02 17:15:37,757 - INFO - mandatory treatment executed to [=10] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : similarity_filter
+2025-04-02 17:15:37,757 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [10]
+2025-04-02 17:15:37,757 - INFO - mandatory treatment executed to [10] in [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] : clean_aux
+2025-04-02 17:15:37,757 - INFO - [add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10] after mandatory treatment: [10]
+2025-04-02 17:15:39,285 - INFO - return acceptable: [10]
+2025-04-02 17:15:41,641 - INFO - treating: y, pipeline: entity_pipeline, user msg: add a test with scope=module y and number = 8, key: , entity: , intent: ADD
+2025-04-02 17:15:41,641 - INFO - mandatory treatment executed to [y] in [add a test with scope=module y and number = 8] : entity_filter
+2025-04-02 17:15:42,039 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: [y]
+2025-04-02 17:15:42,476 - INFO - answer [y] of [add a test with scope=module y and number = 8] failed in validation: ignoring_noun_test
+2025-04-02 17:15:42,877 - INFO - new input generated: [test]
+2025-04-02 17:15:42,877 - INFO - mandatory treatment executed to [test] in [add a test with scope=module y and number = 8] : entity_filter
+2025-04-02 17:15:43,274 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: [test]
+2025-04-02 17:15:43,690 - INFO - return acceptable: [test]
+2025-04-02 17:15:45,206 - INFO - treating: scope, pipeline: attributes_pipeline, user msg: add a test with scope=module y and number = 8, key: scope, entity: test, intent: ADD
+2025-04-02 17:15:45,206 - INFO - mandatory treatment executed to [scope] in [add a test with scope=module y and number = 8] : similarity_filter
+2025-04-02 17:15:45,206 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:45,206 - INFO - mandatory treatment executed to [] in [add a test with scope=module y and number = 8] : clean_aux
+2025-04-02 17:15:45,206 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:45,206 - INFO - answer [] of [add a test with scope=module y and number = 8] failed in validation: length_validation
+2025-04-02 17:15:45,206 - INFO - new input generated: [=module y]
+2025-04-02 17:15:45,206 - INFO - mandatory treatment executed to [=module y] in [add a test with scope=module y and number = 8] : similarity_filter
+2025-04-02 17:15:45,206 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: [module]
+2025-04-02 17:15:45,206 - INFO - mandatory treatment executed to [module] in [add a test with scope=module y and number = 8] : clean_aux
+2025-04-02 17:15:45,206 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: [module]
+2025-04-02 17:15:47,367 - INFO - return acceptable: [module]
+2025-04-02 17:15:49,224 - INFO - treating: y, pipeline: attributes_pipeline, user msg: add a test with scope=module y and number = 8, key: y, entity: test, intent: ADD
+2025-04-02 17:15:49,224 - INFO - mandatory treatment executed to [y] in [add a test with scope=module y and number = 8] : similarity_filter
+2025-04-02 17:15:49,224 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:49,224 - INFO - mandatory treatment executed to [] in [add a test with scope=module y and number = 8] : clean_aux
+2025-04-02 17:15:49,224 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:49,225 - INFO - answer [] of [add a test with scope=module y and number = 8] failed in validation: length_validation
+2025-04-02 17:15:49,225 - INFO - new input generated: []
+2025-04-02 17:15:49,225 - INFO - mandatory treatment executed to [] in [add a test with scope=module y and number = 8] : similarity_filter
+2025-04-02 17:15:49,225 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:49,225 - INFO - mandatory treatment executed to [] in [add a test with scope=module y and number = 8] : clean_aux
+2025-04-02 17:15:49,225 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:49,225 - INFO - answer [] of [add a test with scope=module y and number = 8] failed in validation: length_validation
+2025-04-02 17:15:49,225 - INFO - return not acceptable: []
+2025-04-02 17:15:50,823 - INFO - treating: number, pipeline: attributes_pipeline, user msg: add a test with scope=module y and number = 8, key: number, entity: test, intent: ADD
+2025-04-02 17:15:50,823 - INFO - mandatory treatment executed to [number] in [add a test with scope=module y and number = 8] : similarity_filter
+2025-04-02 17:15:50,823 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:50,823 - INFO - mandatory treatment executed to [] in [add a test with scope=module y and number = 8] : clean_aux
+2025-04-02 17:15:50,823 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: []
+2025-04-02 17:15:50,823 - INFO - answer [] of [add a test with scope=module y and number = 8] failed in validation: length_validation
+2025-04-02 17:15:50,823 - INFO - new input generated: [ = 8]
+2025-04-02 17:15:50,823 - INFO - mandatory treatment executed to [ = 8] in [add a test with scope=module y and number = 8] : similarity_filter
+2025-04-02 17:15:50,823 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: [8]
+2025-04-02 17:15:50,823 - INFO - mandatory treatment executed to [8] in [add a test with scope=module y and number = 8] : clean_aux
+2025-04-02 17:15:50,823 - INFO - [add a test with scope=module y and number = 8] after mandatory treatment: [8]
+2025-04-02 17:15:52,482 - INFO - return acceptable: [8]
+2025-04-02 17:15:54,737 - INFO - treating: 199, pipeline: entity_pipeline, user msg: add student with name=anderson, age=199, key: , entity: , intent: ADD
+2025-04-02 17:15:54,737 - INFO - mandatory treatment executed to [199] in [add student with name=anderson, age=199] : entity_filter
+2025-04-02 17:15:55,050 - INFO - [add student with name=anderson, age=199] after mandatory treatment: [199]
+2025-04-02 17:15:55,660 - INFO - answer [199] of [add student with name=anderson, age=199] failed in validation: ignoring_noun_test
+2025-04-02 17:15:56,059 - INFO - new input generated: [student]
+2025-04-02 17:15:56,059 - INFO - mandatory treatment executed to [student] in [add student with name=anderson, age=199] : entity_filter
+2025-04-02 17:15:56,376 - INFO - [add student with name=anderson, age=199] after mandatory treatment: [student]
+2025-04-02 17:15:56,794 - INFO - return acceptable: [student]
+2025-04-02 17:15:58,140 - INFO - treating: name, pipeline: attributes_pipeline, user msg: add student with name=anderson, age=199, key: name, entity: student, intent: ADD
+2025-04-02 17:15:58,140 - INFO - mandatory treatment executed to [name] in [add student with name=anderson, age=199] : similarity_filter
+2025-04-02 17:15:58,140 - INFO - [add student with name=anderson, age=199] after mandatory treatment: []
+2025-04-02 17:15:58,140 - INFO - mandatory treatment executed to [] in [add student with name=anderson, age=199] : clean_aux
+2025-04-02 17:15:58,140 - INFO - [add student with name=anderson, age=199] after mandatory treatment: []
+2025-04-02 17:15:58,141 - INFO - answer [] of [add student with name=anderson, age=199] failed in validation: length_validation
+2025-04-02 17:15:58,141 - INFO - new input generated: [=anderson]
+2025-04-02 17:15:58,141 - INFO - mandatory treatment executed to [=anderson] in [add student with name=anderson, age=199] : similarity_filter
+2025-04-02 17:15:58,141 - INFO - [add student with name=anderson, age=199] after mandatory treatment: [anderson]
+2025-04-02 17:15:58,141 - INFO - mandatory treatment executed to [anderson] in [add student with name=anderson, age=199] : clean_aux
+2025-04-02 17:15:58,141 - INFO - [add student with name=anderson, age=199] after mandatory treatment: [anderson]
+2025-04-02 17:15:59,663 - INFO - return acceptable: [anderson]
+2025-04-02 17:16:01,114 - INFO - treating: age, pipeline: attributes_pipeline, user msg: add student with name=anderson, age=199, key: age, entity: student, intent: ADD
+2025-04-02 17:16:01,114 - INFO - mandatory treatment executed to [age] in [add student with name=anderson, age=199] : similarity_filter
+2025-04-02 17:16:01,114 - INFO - [add student with name=anderson, age=199] after mandatory treatment: []
+2025-04-02 17:16:01,114 - INFO - mandatory treatment executed to [] in [add student with name=anderson, age=199] : clean_aux
+2025-04-02 17:16:01,114 - INFO - [add student with name=anderson, age=199] after mandatory treatment: []
+2025-04-02 17:16:01,115 - INFO - answer [] of [add student with name=anderson, age=199] failed in validation: length_validation
+2025-04-02 17:16:01,115 - INFO - new input generated: [=199]
+2025-04-02 17:16:01,115 - INFO - mandatory treatment executed to [=199] in [add student with name=anderson, age=199] : similarity_filter
+2025-04-02 17:16:01,115 - INFO - [add student with name=anderson, age=199] after mandatory treatment: [199]
+2025-04-02 17:16:01,115 - INFO - mandatory treatment executed to [199] in [add student with name=anderson, age=199] : clean_aux
+2025-04-02 17:16:01,115 - INFO - [add student with name=anderson, age=199] after mandatory treatment: [199]
+2025-04-02 17:16:02,632 - INFO - return acceptable: [199]
+2025-04-02 17:16:04,851 - INFO - treating: 199, pipeline: entity_pipeline, user msg: delete student name is anderson, and age is 199, key: , entity: , intent: DELETE
+2025-04-02 17:16:04,851 - INFO - mandatory treatment executed to [199] in [delete student name is anderson, and age is 199] : entity_filter
+2025-04-02 17:16:05,184 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: [199]
+2025-04-02 17:16:06,207 - INFO - answer [199] of [delete student name is anderson, and age is 199] failed in validation: ignoring_noun_test
+2025-04-02 17:16:06,510 - INFO - new input generated: [student]
+2025-04-02 17:16:06,510 - INFO - mandatory treatment executed to [student] in [delete student name is anderson, and age is 199] : entity_filter
+2025-04-02 17:16:06,831 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: [student]
+2025-04-02 17:16:07,240 - INFO - return acceptable: [student]
+2025-04-02 17:16:08,685 - INFO - treating: name, pipeline: attributes_pipeline, user msg: delete student name is anderson, and age is 199, key: name, entity: student, intent: DELETE
+2025-04-02 17:16:08,685 - INFO - mandatory treatment executed to [name] in [delete student name is anderson, and age is 199] : similarity_filter
+2025-04-02 17:16:08,685 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: []
+2025-04-02 17:16:08,685 - INFO - mandatory treatment executed to [] in [delete student name is anderson, and age is 199] : clean_aux
+2025-04-02 17:16:08,685 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: []
+2025-04-02 17:16:08,685 - INFO - answer [] of [delete student name is anderson, and age is 199] failed in validation: length_validation
+2025-04-02 17:16:08,685 - INFO - new input generated: [ is anderson,]
+2025-04-02 17:16:08,685 - INFO - mandatory treatment executed to [ is anderson,] in [delete student name is anderson, and age is 199] : similarity_filter
+2025-04-02 17:16:08,685 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: [is anderson]
+2025-04-02 17:16:08,685 - INFO - mandatory treatment executed to [is anderson] in [delete student name is anderson, and age is 199] : clean_aux
+2025-04-02 17:16:08,685 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: [is anderson]
+2025-04-02 17:16:10,916 - INFO - return acceptable: [is anderson]
+2025-04-02 17:16:12,491 - INFO - treating: age, pipeline: attributes_pipeline, user msg: delete student name is anderson, and age is 199, key: age, entity: student, intent: DELETE
+2025-04-02 17:16:12,491 - INFO - mandatory treatment executed to [age] in [delete student name is anderson, and age is 199] : similarity_filter
+2025-04-02 17:16:12,491 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: []
+2025-04-02 17:16:12,491 - INFO - mandatory treatment executed to [] in [delete student name is anderson, and age is 199] : clean_aux
+2025-04-02 17:16:12,491 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: []
+2025-04-02 17:16:12,491 - INFO - answer [] of [delete student name is anderson, and age is 199] failed in validation: length_validation
+2025-04-02 17:16:12,491 - INFO - new input generated: [ is 199]
+2025-04-02 17:16:12,491 - INFO - mandatory treatment executed to [ is 199] in [delete student name is anderson, and age is 199] : similarity_filter
+2025-04-02 17:16:12,491 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: [is 199]
+2025-04-02 17:16:12,491 - INFO - mandatory treatment executed to [is 199] in [delete student name is anderson, and age is 199] : clean_aux
+2025-04-02 17:16:12,491 - INFO - [delete student name is anderson, and age is 199] after mandatory treatment: [is 199]
+2025-04-02 17:16:14,002 - INFO - return acceptable: [is 199]
+2025-04-02 17:16:16,213 - INFO - treating: author, pipeline: entity_pipeline, user msg: add article with title=the title, author=the author, key: , entity: , intent: ADD
+2025-04-02 17:16:16,213 - INFO - mandatory treatment executed to [author] in [add article with title=the title, author=the author] : entity_filter
+2025-04-02 17:16:16,552 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [author]
+2025-04-02 17:16:16,960 - INFO - answer [author] of [add article with title=the title, author=the author] failed in validation: ignoring_noun_test
+2025-04-02 17:16:17,300 - INFO - new input generated: [article]
+2025-04-02 17:16:17,300 - INFO - mandatory treatment executed to [article] in [add article with title=the title, author=the author] : entity_filter
+2025-04-02 17:16:17,673 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [article]
+2025-04-02 17:16:18,090 - INFO - return acceptable: [article]
+2025-04-02 17:16:19,490 - INFO - treating: title, pipeline: attributes_pipeline, user msg: add article with title=the title, author=the author, key: title, entity: article, intent: ADD
+2025-04-02 17:16:19,490 - INFO - mandatory treatment executed to [title] in [add article with title=the title, author=the author] : similarity_filter
+2025-04-02 17:16:19,490 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [title]
+2025-04-02 17:16:19,490 - INFO - mandatory treatment executed to [title] in [add article with title=the title, author=the author] : clean_aux
+2025-04-02 17:16:19,490 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [title]
+2025-04-02 17:16:19,490 - INFO - answer [title] of [add article with title=the title, author=the author] failed in validation: key_equal_value_validation
+2025-04-02 17:16:19,490 - INFO - new input generated: [=the title]
+2025-04-02 17:16:19,490 - INFO - mandatory treatment executed to [=the title] in [add article with title=the title, author=the author] : similarity_filter
+2025-04-02 17:16:19,490 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [the title]
+2025-04-02 17:16:19,490 - INFO - mandatory treatment executed to [the title] in [add article with title=the title, author=the author] : clean_aux
+2025-04-02 17:16:19,490 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [the title]
+2025-04-02 17:16:21,162 - INFO - return acceptable: [the title]
+2025-04-02 17:16:22,513 - INFO - treating: author, pipeline: attributes_pipeline, user msg: add article with title=the title, author=the author, key: author, entity: article, intent: ADD
+2025-04-02 17:16:22,513 - INFO - mandatory treatment executed to [author] in [add article with title=the title, author=the author] : similarity_filter
+2025-04-02 17:16:22,513 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [author]
+2025-04-02 17:16:22,513 - INFO - mandatory treatment executed to [author] in [add article with title=the title, author=the author] : clean_aux
+2025-04-02 17:16:22,513 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [author]
+2025-04-02 17:16:22,513 - INFO - answer [author] of [add article with title=the title, author=the author] failed in validation: key_equal_value_validation
+2025-04-02 17:16:22,513 - INFO - new input generated: [=the author]
+2025-04-02 17:16:22,513 - INFO - mandatory treatment executed to [=the author] in [add article with title=the title, author=the author] : similarity_filter
+2025-04-02 17:16:22,513 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [the author]
+2025-04-02 17:16:22,513 - INFO - mandatory treatment executed to [the author] in [add article with title=the title, author=the author] : clean_aux
+2025-04-02 17:16:22,513 - INFO - [add article with title=the title, author=the author] after mandatory treatment: [the author]
+2025-04-02 17:16:24,125 - INFO - return acceptable: [the author]
+2025-04-02 17:16:26,396 - INFO - treating: article, pipeline: entity_pipeline, user msg: update article with title "the title" and author "the author" set the title to "the new title", key: , entity: , intent: UPDATE
+2025-04-02 17:16:26,397 - INFO - mandatory treatment executed to [article] in [update article with title "the title" and author "the author" set the title to "the new title"] : entity_filter
+2025-04-02 17:16:27,027 - INFO - [update article with title "the title" and author "the author" set the title to "the new title"] after mandatory treatment: [article]
+2025-04-02 17:16:27,434 - INFO - answer [article] of [update article with title "the title" and author "the author" set the title to "the new title"] failed in validation: ignoring_noun_test
+2025-04-02 17:16:27,834 - INFO - new input generated: [update]
+2025-04-02 17:16:27,834 - INFO - mandatory treatment executed to [update] in [update article with title "the title" and author "the author" set the title to "the new title"] : entity_filter
+2025-04-02 17:16:28,175 - INFO - [update article with title "the title" and author "the author" set the title to "the new title"] after mandatory treatment: [update]
+2025-04-02 17:16:28,557 - INFO - return acceptable: [update]
+2025-04-02 17:16:30,659 - INFO - treating: ad, pipeline: entity_pipeline, user msg: add article with author=anderson, key: , entity: , intent: ADD
+2025-04-02 17:16:30,659 - INFO - mandatory treatment executed to [ad] in [add article with author=anderson] : entity_filter
+2025-04-02 17:16:30,984 - INFO - [add article with author=anderson] after mandatory treatment: [ad]
+2025-04-02 17:16:31,312 - INFO - return acceptable: [ad]
+2025-04-02 17:16:32,773 - INFO - treating: article, pipeline: attributes_pipeline, user msg: add article with author=anderson, key: article, entity: ad, intent: ADD
+2025-04-02 17:16:32,773 - INFO - mandatory treatment executed to [article] in [add article with author=anderson] : similarity_filter
+2025-04-02 17:16:32,773 - INFO - [add article with author=anderson] after mandatory treatment: []
+2025-04-02 17:16:32,773 - INFO - mandatory treatment executed to [] in [add article with author=anderson] : clean_aux
+2025-04-02 17:16:32,773 - INFO - [add article with author=anderson] after mandatory treatment: []
+2025-04-02 17:16:32,773 - INFO - answer [] of [add article with author=anderson] failed in validation: length_validation
+2025-04-02 17:16:32,773 - INFO - new input generated: [ with author=anderson]
+2025-04-02 17:16:32,773 - INFO - mandatory treatment executed to [ with author=anderson] in [add article with author=anderson] : similarity_filter
+2025-04-02 17:16:32,774 - INFO - [add article with author=anderson] after mandatory treatment: [with authoranderson]
+2025-04-02 17:16:32,774 - INFO - mandatory treatment executed to [with authoranderson] in [add article with author=anderson] : clean_aux
+2025-04-02 17:16:32,774 - INFO - [add article with author=anderson] after mandatory treatment: [with authoranderson]
+2025-04-02 17:16:34,594 - INFO - return acceptable: [with authoranderson]
+2025-04-02 17:16:36,661 - INFO - treating: author, pipeline: attributes_pipeline, user msg: add article with author=anderson, key: author, entity: ad, intent: ADD
+2025-04-02 17:16:36,661 - INFO - mandatory treatment executed to [author] in [add article with author=anderson] : similarity_filter
+2025-04-02 17:16:36,661 - INFO - [add article with author=anderson] after mandatory treatment: []
+2025-04-02 17:16:36,661 - INFO - mandatory treatment executed to [] in [add article with author=anderson] : clean_aux
+2025-04-02 17:16:36,661 - INFO - [add article with author=anderson] after mandatory treatment: []
+2025-04-02 17:16:36,661 - INFO - answer [] of [add article with author=anderson] failed in validation: length_validation
+2025-04-02 17:16:36,661 - INFO - new input generated: [=anderson]
+2025-04-02 17:16:36,661 - INFO - mandatory treatment executed to [=anderson] in [add article with author=anderson] : similarity_filter
+2025-04-02 17:16:36,661 - INFO - [add article with author=anderson] after mandatory treatment: [anderson]
+2025-04-02 17:16:36,661 - INFO - mandatory treatment executed to [anderson] in [add article with author=anderson] : clean_aux
+2025-04-02 17:16:36,661 - INFO - [add article with author=anderson] after mandatory treatment: [anderson]
+2025-04-02 17:16:38,254 - INFO - return acceptable: [anderson]
+2025-04-02 17:16:40,515 - INFO - treating: article, pipeline: entity_pipeline, user msg: delete article when author="anderson", key: , entity: , intent: DELETE
+2025-04-02 17:16:40,515 - INFO - mandatory treatment executed to [article] in [delete article when author="anderson"] : entity_filter
+2025-04-02 17:16:40,964 - INFO - [delete article when author="anderson"] after mandatory treatment: [article]
+2025-04-02 17:16:41,320 - INFO - return acceptable: [article]
+2025-04-02 17:16:42,928 - INFO - treating: author, pipeline: attributes_pipeline, user msg: delete article when author="anderson", key: author, entity: article, intent: DELETE
+2025-04-02 17:16:42,928 - INFO - mandatory treatment executed to [author] in [delete article when author="anderson"] : similarity_filter
+2025-04-02 17:16:42,928 - INFO - [delete article when author="anderson"] after mandatory treatment: []
+2025-04-02 17:16:42,928 - INFO - mandatory treatment executed to [] in [delete article when author="anderson"] : clean_aux
+2025-04-02 17:16:42,928 - INFO - [delete article when author="anderson"] after mandatory treatment: []
+2025-04-02 17:16:42,928 - INFO - answer [] of [delete article when author="anderson"] failed in validation: length_validation
+2025-04-02 17:16:42,928 - INFO - new input generated: [="anderson"]
+2025-04-02 17:16:42,928 - INFO - mandatory treatment executed to [="anderson"] in [delete article when author="anderson"] : similarity_filter
+2025-04-02 17:16:42,928 - INFO - [delete article when author="anderson"] after mandatory treatment: ["anderson"]
+2025-04-02 17:16:42,928 - INFO - mandatory treatment executed to ["anderson"] in [delete article when author="anderson"] : clean_aux
+2025-04-02 17:16:42,928 - INFO - [delete article when author="anderson"] after mandatory treatment: ["anderson"]
+2025-04-02 17:16:43,277 - INFO - answer ["anderson"] of [delete article when author="anderson"] failed in validation: pronoun_validation
+2025-04-02 17:16:43,277 - INFO - return not acceptable: ["anderson"]
+2025-04-02 17:16:45,724 - INFO - treating: articles, pipeline: entity_pipeline, user msg: show me the articles, key: , entity: , intent: READ
+2025-04-02 17:16:45,724 - INFO - mandatory treatment executed to [articles] in [show me the articles] : entity_filter
+2025-04-02 17:16:46,157 - INFO - [show me the articles] after mandatory treatment: [articles]
+2025-04-02 17:16:46,512 - INFO - return acceptable: [articles]
+2025-04-02 17:16:48,817 - INFO - treating: abstract, pipeline: entity_pipeline, user msg: add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords, key: , entity: , intent: ADD
+2025-04-02 17:16:48,817 - INFO - mandatory treatment executed to [abstract] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : entity_filter
+2025-04-02 17:16:49,224 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [abstract]
+2025-04-02 17:16:49,649 - INFO - answer [abstract] of [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] failed in validation: ignoring_noun_test
+2025-04-02 17:16:50,054 - INFO - new input generated: [article]
+2025-04-02 17:16:50,054 - INFO - mandatory treatment executed to [article] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : entity_filter
+2025-04-02 17:16:50,453 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [article]
+2025-04-02 17:16:50,878 - INFO - return acceptable: [article]
+2025-04-02 17:16:52,353 - INFO - treating: title, pipeline: attributes_pipeline, user msg: add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords, key: title, entity: article, intent: ADD
+2025-04-02 17:16:52,354 - INFO - mandatory treatment executed to [title] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:16:52,354 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [title]
+2025-04-02 17:16:52,354 - INFO - mandatory treatment executed to [title] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:16:52,354 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [title]
+2025-04-02 17:16:52,354 - INFO - answer [title] of [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] failed in validation: key_equal_value_validation
+2025-04-02 17:16:52,354 - INFO - new input generated: [=the title]
+2025-04-02 17:16:52,354 - INFO - mandatory treatment executed to [=the title] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:16:52,354 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the title]
+2025-04-02 17:16:52,354 - INFO - mandatory treatment executed to [the title] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:16:52,354 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the title]
+2025-04-02 17:16:53,931 - INFO - return acceptable: [the title]
+2025-04-02 17:16:55,458 - INFO - treating: author, pipeline: attributes_pipeline, user msg: add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords, key: author, entity: article, intent: ADD
+2025-04-02 17:16:55,458 - INFO - mandatory treatment executed to [author] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:16:55,458 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [author]
+2025-04-02 17:16:55,458 - INFO - mandatory treatment executed to [author] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:16:55,458 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [author]
+2025-04-02 17:16:55,458 - INFO - answer [author] of [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] failed in validation: key_equal_value_validation
+2025-04-02 17:16:55,458 - INFO - new input generated: [=the author]
+2025-04-02 17:16:55,458 - INFO - mandatory treatment executed to [=the author] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:16:55,458 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the author]
+2025-04-02 17:16:55,458 - INFO - mandatory treatment executed to [the author] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:16:55,458 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the author]
+2025-04-02 17:16:57,102 - INFO - return acceptable: [the author]
+2025-04-02 17:16:58,785 - INFO - treating: abstract, pipeline: attributes_pipeline, user msg: add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords, key: abstract, entity: article, intent: ADD
+2025-04-02 17:16:58,785 - INFO - mandatory treatment executed to [abstract] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:16:58,785 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [abstract]
+2025-04-02 17:16:58,785 - INFO - mandatory treatment executed to [abstract] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:16:58,785 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [abstract]
+2025-04-02 17:16:58,785 - INFO - answer [abstract] of [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] failed in validation: key_equal_value_validation
+2025-04-02 17:16:58,785 - INFO - new input generated: [=the abstract]
+2025-04-02 17:16:58,785 - INFO - mandatory treatment executed to [=the abstract] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:16:58,785 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the abstract]
+2025-04-02 17:16:58,785 - INFO - mandatory treatment executed to [the abstract] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:16:58,785 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the abstract]
+2025-04-02 17:17:00,275 - INFO - return acceptable: [the abstract]
+2025-04-02 17:17:01,861 - INFO - treating: title, pipeline: attributes_pipeline, user msg: add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords, key: keywords, entity: article, intent: ADD
+2025-04-02 17:17:01,861 - INFO - mandatory treatment executed to [title] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:17:01,861 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: []
+2025-04-02 17:17:01,861 - INFO - mandatory treatment executed to [] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:17:01,861 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: []
+2025-04-02 17:17:01,861 - INFO - answer [] of [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] failed in validation: length_validation
+2025-04-02 17:17:01,861 - INFO - new input generated: [=the keywords]
+2025-04-02 17:17:01,861 - INFO - mandatory treatment executed to [=the keywords] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : similarity_filter
+2025-04-02 17:17:01,861 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the keywords]
+2025-04-02 17:17:01,861 - INFO - mandatory treatment executed to [the keywords] in [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] : clean_aux
+2025-04-02 17:17:01,861 - INFO - [add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords] after mandatory treatment: [the keywords]
+2025-04-02 17:17:03,331 - INFO - return acceptable: [the keywords]
+2025-04-02 17:17:05,676 - INFO - treating: e-mail, pipeline: entity_pipeline, user msg: update article with title "the title", setting the co-author as "anderson gomes", key: , entity: , intent: UPDATE
+2025-04-02 17:17:05,676 - INFO - mandatory treatment executed to [e-mail] in [update article with title "the title", setting the co-author as "anderson gomes"] : entity_filter
+2025-04-02 17:17:06,013 - INFO - [update article with title "the title", setting the co-author as "anderson gomes"] after mandatory treatment: [e-mail]
+2025-04-02 17:17:06,443 - INFO - answer [e-mail] of [update article with title "the title", setting the co-author as "anderson gomes"] failed in validation: in_msg_test
+2025-04-02 17:17:06,835 - INFO - new input generated: [update]
+2025-04-02 17:17:06,835 - INFO - mandatory treatment executed to [update] in [update article with title "the title", setting the co-author as "anderson gomes"] : entity_filter
+2025-04-02 17:17:07,166 - INFO - [update article with title "the title", setting the co-author as "anderson gomes"] after mandatory treatment: [update]
+2025-04-02 17:17:07,559 - INFO - return acceptable: [update]
+2025-04-02 17:17:09,936 - INFO - treating: article, pipeline: entity_pipeline, user msg: update article with id=1, setting the first author as "paulo maia", key: , entity: , intent: UPDATE
+2025-04-02 17:17:09,936 - INFO - mandatory treatment executed to [article] in [update article with id=1, setting the first author as "paulo maia"] : entity_filter
+2025-04-02 17:17:10,305 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: [article]
+2025-04-02 17:17:10,722 - INFO - return acceptable: [article]
+2025-04-02 17:17:12,577 - INFO - treating: id=1, pipeline: filter_pipeline, user msg: update article with id=1, setting the first author as "paulo maia", key: , entity: article, intent: UPDATE
+2025-04-02 17:17:12,578 - INFO - return acceptable: [id=1]
+2025-04-02 17:17:14,057 - INFO - treating: id, pipeline: attributes_pipeline, user msg: update article with id=1, setting the first author as "paulo maia", key: id, entity: article, intent: UPDATE
+2025-04-02 17:17:14,057 - INFO - mandatory treatment executed to [id] in [update article with id=1, setting the first author as "paulo maia"] : similarity_filter
+2025-04-02 17:17:14,057 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: []
+2025-04-02 17:17:14,057 - INFO - mandatory treatment executed to [] in [update article with id=1, setting the first author as "paulo maia"] : clean_aux
+2025-04-02 17:17:14,398 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: []
+2025-04-02 17:17:14,398 - INFO - answer [] of [update article with id=1, setting the first author as "paulo maia"] failed in validation: length_validation
+2025-04-02 17:17:14,398 - INFO - new input generated: [=1]
+2025-04-02 17:17:14,398 - INFO - mandatory treatment executed to [=1] in [update article with id=1, setting the first author as "paulo maia"] : similarity_filter
+2025-04-02 17:17:14,398 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: [1]
+2025-04-02 17:17:14,398 - INFO - mandatory treatment executed to [1] in [update article with id=1, setting the first author as "paulo maia"] : clean_aux
+2025-04-02 17:17:14,702 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: [1]
+2025-04-02 17:17:16,238 - INFO - return acceptable: [1]
+2025-04-02 17:17:17,792 - INFO - treating: first author, pipeline: attributes_pipeline, user msg: update article with id=1, setting the first author as "paulo maia", key: first author, entity: article, intent: UPDATE
+2025-04-02 17:17:17,792 - INFO - mandatory treatment executed to [first author] in [update article with id=1, setting the first author as "paulo maia"] : similarity_filter
+2025-04-02 17:17:17,792 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: []
+2025-04-02 17:17:17,792 - INFO - mandatory treatment executed to [] in [update article with id=1, setting the first author as "paulo maia"] : clean_aux
+2025-04-02 17:17:18,190 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: []
+2025-04-02 17:17:18,190 - INFO - answer [] of [update article with id=1, setting the first author as "paulo maia"] failed in validation: length_validation
+2025-04-02 17:17:18,190 - INFO - new input generated: [ as "paulo maia"]
+2025-04-02 17:17:18,190 - INFO - mandatory treatment executed to [ as "paulo maia"] in [update article with id=1, setting the first author as "paulo maia"] : similarity_filter
+2025-04-02 17:17:18,190 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: [as "paulo maia"]
+2025-04-02 17:17:18,190 - INFO - mandatory treatment executed to [as "paulo maia"] in [update article with id=1, setting the first author as "paulo maia"] : clean_aux
+2025-04-02 17:17:18,660 - INFO - [update article with id=1, setting the first author as "paulo maia"] after mandatory treatment: [as "paulo maia"]
+2025-04-02 17:17:19,011 - INFO - answer [as "paulo maia"] of [update article with id=1, setting the first author as "paulo maia"] failed in validation: pronoun_validation
+2025-04-02 17:17:19,011 - INFO - return not acceptable: [as "paulo maia"]
+2025-04-02 17:17:21,246 - INFO - treating: st, pipeline: entity_pipeline, user msg: show all students, key: , entity: , intent: READ
+2025-04-02 17:17:21,246 - INFO - mandatory treatment executed to [st] in [show all students] : entity_filter
+2025-04-02 17:17:21,566 - INFO - [show all students] after mandatory treatment: [st]
+2025-04-02 17:17:21,873 - INFO - return acceptable: [st]
+2025-04-02 17:17:23,318 - INFO - treating: students, pipeline: attributes_pipeline, user msg: show all students, key: students, entity: st, intent: READ
+2025-04-02 17:17:23,318 - INFO - mandatory treatment executed to [students] in [show all students] : similarity_filter
+2025-04-02 17:17:23,318 - INFO - [show all students] after mandatory treatment: []
+2025-04-02 17:17:23,318 - INFO - mandatory treatment executed to [] in [show all students] : clean_aux
+2025-04-02 17:17:23,318 - INFO - [show all students] after mandatory treatment: []
+2025-04-02 17:17:23,318 - INFO - answer [] of [show all students] failed in validation: length_validation
+2025-04-02 17:17:23,318 - INFO - new input generated: []
+2025-04-02 17:17:23,318 - INFO - mandatory treatment executed to [] in [show all students] : similarity_filter
+2025-04-02 17:17:23,318 - INFO - [show all students] after mandatory treatment: []
+2025-04-02 17:17:23,318 - INFO - mandatory treatment executed to [] in [show all students] : clean_aux
+2025-04-02 17:17:23,318 - INFO - [show all students] after mandatory treatment: []
+2025-04-02 17:17:23,318 - INFO - answer [] of [show all students] failed in validation: length_validation
+2025-04-02 17:17:23,318 - INFO - return not acceptable: []
+2025-04-02 17:17:25,565 - INFO - treating: view students, pipeline: entity_pipeline, user msg: view students, key: , entity: , intent: READ
+2025-04-02 17:17:25,565 - INFO - mandatory treatment executed to [view students] in [view students] : entity_filter
+2025-04-02 17:17:25,971 - INFO - [view students] after mandatory treatment: [students]
+2025-04-02 17:17:26,277 - INFO - return acceptable: [students]
+2025-04-02 17:17:29,554 - INFO - treating: e-mail, pipeline: entity_pipeline, user msg: fetch the students, key: , entity: , intent: READ
+2025-04-02 17:17:29,554 - INFO - mandatory treatment executed to [e-mail] in [fetch the students] : entity_filter
+2025-04-02 17:17:29,881 - INFO - [fetch the students] after mandatory treatment: [e-mail]
+2025-04-02 17:17:30,296 - INFO - answer [e-mail] of [fetch the students] failed in validation: in_msg_test
+2025-04-02 17:17:30,683 - INFO - new input generated: [students]
+2025-04-02 17:17:30,683 - INFO - mandatory treatment executed to [students] in [fetch the students] : entity_filter
+2025-04-02 17:17:30,991 - INFO - [fetch the students] after mandatory treatment: [students]
+2025-04-02 17:17:31,311 - INFO - return acceptable: [students]
+2025-04-02 17:17:33,573 - INFO - treating: edward edwards, pipeline: entity_pipeline, user msg: get the students, key: , entity: , intent: READ
+2025-04-02 17:17:33,573 - INFO - mandatory treatment executed to [edward edwards] in [get the students] : entity_filter
+2025-04-02 17:17:33,956 - INFO - [get the students] after mandatory treatment: [edward edwards]
+2025-04-02 17:17:34,263 - INFO - answer [edward edwards] of [get the students] failed in validation: in_msg_test
+2025-04-02 17:17:34,574 - INFO - new input generated: [students]
+2025-04-02 17:17:34,574 - INFO - mandatory treatment executed to [students] in [get the students] : entity_filter
+2025-04-02 17:17:34,888 - INFO - [get the students] after mandatory treatment: [students]
+2025-04-02 17:17:35,291 - INFO - return acceptable: [students]
+2025-04-02 17:17:37,498 - INFO - treating: scottish, pipeline: entity_pipeline, user msg: for the students with name='anderson', update the name to 'anderson martins', key: , entity: , intent: UPDATE
+2025-04-02 17:17:37,498 - INFO - mandatory treatment executed to [scottish] in [for the students with name='anderson', update the name to 'anderson martins'] : entity_filter
+2025-04-02 17:17:37,843 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: [scottish]
+2025-04-02 17:17:38,159 - INFO - answer [scottish] of [for the students with name='anderson', update the name to 'anderson martins'] failed in validation: in_msg_test
+2025-04-02 17:17:38,552 - INFO - new input generated: [students]
+2025-04-02 17:17:38,553 - INFO - mandatory treatment executed to [students] in [for the students with name='anderson', update the name to 'anderson martins'] : entity_filter
+2025-04-02 17:17:38,879 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: [students]
+2025-04-02 17:17:39,284 - INFO - return acceptable: [students]
+2025-04-02 17:17:41,506 - INFO - treating: name='anderson', name to 'anderson, pipeline: filter_pipeline, user msg: for the students with name='anderson', update the name to 'anderson martins', key: , entity: student, intent: UPDATE
+2025-04-02 17:17:41,506 - INFO - answer [name='anderson', name to 'anderson] of [for the students with name='anderson', update the name to 'anderson martins'] failed in validation: in_msg_test
+2025-04-02 17:17:41,879 - INFO - new input generated: [name = ' anderson ']
+2025-04-02 17:17:41,880 - INFO - answer [name = ' anderson '] of [for the students with name='anderson', update the name to 'anderson martins'] failed in validation: in_msg_test
+2025-04-02 17:17:41,880 - INFO - return not acceptable: [name = ' anderson ']
+2025-04-02 17:17:43,356 - INFO - treating: name, pipeline: attributes_pipeline, user msg: for the students with name='anderson', update the name to 'anderson martins', key: name, entity: student, intent: UPDATE
+2025-04-02 17:17:43,356 - INFO - mandatory treatment executed to [name] in [for the students with name='anderson', update the name to 'anderson martins'] : similarity_filter
+2025-04-02 17:17:43,356 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: [name]
+2025-04-02 17:17:43,356 - INFO - mandatory treatment executed to [name] in [for the students with name='anderson', update the name to 'anderson martins'] : clean_aux
+2025-04-02 17:17:43,686 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: [name]
+2025-04-02 17:17:43,686 - INFO - answer [name] of [for the students with name='anderson', update the name to 'anderson martins'] failed in validation: key_equal_value_validation
+2025-04-02 17:17:43,686 - INFO - new input generated: [='anderson']
+2025-04-02 17:17:43,686 - INFO - mandatory treatment executed to [='anderson'] in [for the students with name='anderson', update the name to 'anderson martins'] : similarity_filter
+2025-04-02 17:17:43,686 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: ['anderson]
+2025-04-02 17:17:43,686 - INFO - mandatory treatment executed to ['anderson] in [for the students with name='anderson', update the name to 'anderson martins'] : clean_aux
+2025-04-02 17:17:44,096 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: ['anderson]
+2025-04-02 17:17:45,533 - INFO - return acceptable: ['anderson]
+2025-04-02 17:17:47,054 - INFO - treating: name, pipeline: attributes_pipeline, user msg: for the students with name='anderson', update the name to 'anderson martins', key: name, entity: student, intent: UPDATE
+2025-04-02 17:17:47,054 - INFO - mandatory treatment executed to [name] in [for the students with name='anderson', update the name to 'anderson martins'] : similarity_filter
+2025-04-02 17:17:47,054 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: [name]
+2025-04-02 17:17:47,054 - INFO - mandatory treatment executed to [name] in [for the students with name='anderson', update the name to 'anderson martins'] : clean_aux
+2025-04-02 17:17:47,370 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: [name]
+2025-04-02 17:17:47,370 - INFO - answer [name] of [for the students with name='anderson', update the name to 'anderson martins'] failed in validation: key_equal_value_validation
+2025-04-02 17:17:47,370 - INFO - new input generated: [='anderson']
+2025-04-02 17:17:47,370 - INFO - mandatory treatment executed to [='anderson'] in [for the students with name='anderson', update the name to 'anderson martins'] : similarity_filter
+2025-04-02 17:17:47,370 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: ['anderson]
+2025-04-02 17:17:47,370 - INFO - mandatory treatment executed to ['anderson] in [for the students with name='anderson', update the name to 'anderson martins'] : clean_aux
+2025-04-02 17:17:47,677 - INFO - [for the students with name='anderson', update the name to 'anderson martins'] after mandatory treatment: ['anderson]
+2025-04-02 17:17:49,217 - INFO - return acceptable: ['anderson]
+2025-04-02 17:17:51,508 - INFO - treating: student, pipeline: entity_pipeline, user msg: please change student with name paulo update age to 30, key: , entity: , intent: UPDATE
+2025-04-02 17:17:51,508 - INFO - mandatory treatment executed to [student] in [please change student with name paulo update age to 30] : entity_filter
+2025-04-02 17:17:51,872 - INFO - [please change student with name paulo update age to 30] after mandatory treatment: [student]
+2025-04-02 17:17:52,185 - INFO - return acceptable: [student]
+2025-04-02 17:17:53,916 - INFO - treating: age to 30, pipeline: filter_pipeline, user msg: please change student with name paulo update age to 30, key: , entity: student, intent: UPDATE
+2025-04-02 17:17:53,917 - INFO - return acceptable: [age to 30]
+2025-04-02 17:17:55,679 - INFO - treating: name, pipeline: attributes_pipeline, user msg: please change student with name paulo update age to 30, key: name, entity: student, intent: UPDATE
+2025-04-02 17:17:55,679 - INFO - mandatory treatment executed to [name] in [please change student with name paulo update age to 30] : similarity_filter
+2025-04-02 17:17:55,679 - INFO - [please change student with name paulo update age to 30] after mandatory treatment: []
+2025-04-02 17:17:55,679 - INFO - mandatory treatment executed to [] in [please change student with name paulo update age to 30] : clean_aux
+2025-04-02 17:17:56,079 - INFO - [please change student with name paulo update age to 30] after mandatory treatment: []
+2025-04-02 17:17:56,079 - INFO - answer [] of [please change student with name paulo update age to 30] failed in validation: length_validation
+2025-04-02 17:17:56,079 - INFO - new input generated: [ paulo update age to 30]
+2025-04-02 17:17:56,079 - INFO - mandatory treatment executed to [ paulo update age to 30] in [please change student with name paulo update age to 30] : similarity_filter
+2025-04-02 17:17:56,079 - INFO - [please change student with name paulo update age to 30] after mandatory treatment: [paulo update age to 30]
+2025-04-02 17:17:56,079 - INFO - mandatory treatment executed to [paulo update age to 30] in [please change student with name paulo update age to 30] : clean_aux
+2025-04-02 17:17:56,502 - INFO - [please change student with name paulo update age to 30] after mandatory treatment: [paulo update age to 30]
+2025-04-02 17:17:58,123 - INFO - return acceptable: [paulo update age to 30]
+2025-04-02 17:18:00,448 - INFO - treating: adolescent, pipeline: entity_pipeline, user msg: for students with name anderson, update age to 30, key: , entity: , intent: UPDATE
+2025-04-02 17:18:00,448 - INFO - mandatory treatment executed to [adolescent] in [for students with name anderson, update age to 30] : entity_filter
+2025-04-02 17:18:00,791 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: [adolescent]
+2025-04-02 17:18:01,108 - INFO - answer [adolescent] of [for students with name anderson, update age to 30] failed in validation: in_msg_test
+2025-04-02 17:18:01,514 - INFO - new input generated: [students]
+2025-04-02 17:18:01,514 - INFO - mandatory treatment executed to [students] in [for students with name anderson, update age to 30] : entity_filter
+2025-04-02 17:18:01,918 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: [students]
+2025-04-02 17:18:02,335 - INFO - return acceptable: [students]
+2025-04-02 17:18:03,989 - INFO - treating: age to 30, pipeline: filter_pipeline, user msg: for students with name anderson, update age to 30, key: , entity: student, intent: UPDATE
+2025-04-02 17:18:03,989 - INFO - return acceptable: [age to 30]
+2025-04-02 17:18:05,375 - INFO - treating: name, pipeline: attributes_pipeline, user msg: for students with name anderson, update age to 30, key: name, entity: student, intent: UPDATE
+2025-04-02 17:18:05,375 - INFO - mandatory treatment executed to [name] in [for students with name anderson, update age to 30] : similarity_filter
+2025-04-02 17:18:05,375 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: []
+2025-04-02 17:18:05,375 - INFO - mandatory treatment executed to [] in [for students with name anderson, update age to 30] : clean_aux
+2025-04-02 17:18:05,718 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: []
+2025-04-02 17:18:05,718 - INFO - answer [] of [for students with name anderson, update age to 30] failed in validation: length_validation
+2025-04-02 17:18:05,718 - INFO - new input generated: [ anderson]
+2025-04-02 17:18:05,718 - INFO - mandatory treatment executed to [ anderson] in [for students with name anderson, update age to 30] : similarity_filter
+2025-04-02 17:18:05,718 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: [anderson]
+2025-04-02 17:18:05,718 - INFO - mandatory treatment executed to [anderson] in [for students with name anderson, update age to 30] : clean_aux
+2025-04-02 17:18:06,118 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: [anderson]
+2025-04-02 17:18:07,549 - INFO - return acceptable: [anderson]
+2025-04-02 17:18:08,943 - INFO - treating: age, pipeline: attributes_pipeline, user msg: for students with name anderson, update age to 30, key: age, entity: student, intent: UPDATE
+2025-04-02 17:18:08,944 - INFO - mandatory treatment executed to [age] in [for students with name anderson, update age to 30] : similarity_filter
+2025-04-02 17:18:08,944 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: []
+2025-04-02 17:18:08,944 - INFO - mandatory treatment executed to [] in [for students with name anderson, update age to 30] : clean_aux
+2025-04-02 17:18:09,703 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: []
+2025-04-02 17:18:09,703 - INFO - answer [] of [for students with name anderson, update age to 30] failed in validation: length_validation
+2025-04-02 17:18:09,703 - INFO - new input generated: [ to 30]
+2025-04-02 17:18:09,703 - INFO - mandatory treatment executed to [ to 30] in [for students with name anderson, update age to 30] : similarity_filter
+2025-04-02 17:18:09,703 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: [to 30]
+2025-04-02 17:18:09,703 - INFO - mandatory treatment executed to [to 30] in [for students with name anderson, update age to 30] : clean_aux
+2025-04-02 17:18:10,021 - INFO - [for students with name anderson, update age to 30] after mandatory treatment: [to 30]
+2025-04-02 17:18:11,537 - INFO - return acceptable: [to 30]
+2025-04-02 17:18:14,164 - INFO - treating: student, pipeline: entity_pipeline, user msg: update students, key: , entity: , intent: UPDATE
+2025-04-02 17:18:14,164 - INFO - mandatory treatment executed to [student] in [update students] : entity_filter
+2025-04-02 17:18:14,499 - INFO - [update students] after mandatory treatment: [student]
+2025-04-02 17:18:14,837 - INFO - return acceptable: [student]
+2025-04-02 17:18:16,693 - INFO - treating: students, pipeline: filter_pipeline, user msg: update students, key: , entity: student, intent: UPDATE
+2025-04-02 17:18:16,693 - INFO - return acceptable: [students]
+2025-04-02 17:18:19,332 - INFO - treating: Yes, pipeline: intent_pipeline, user msg: please, when students have the name equal to anderson, update the age to 30., key: , entity: , intent: 
+2025-04-02 17:18:19,332 - INFO - mandatory treatment executed to [Yes] in [please, when students have the name equal to anderson, update the age to 30.] : intent_filter
+2025-04-02 17:18:19,332 - INFO - [please, when students have the name equal to anderson, update the age to 30.] after mandatory treatment: [Yes]
+2025-04-02 17:18:19,332 - INFO - return acceptable: [Yes]
+2025-04-02 17:18:21,306 - INFO - treating: CRUD, pipeline: intent_pipeline, user msg: please, when students have the name equal to anderson, update the age to 30., key: , entity: , intent: 
+2025-04-02 17:18:21,306 - INFO - mandatory treatment executed to [CRUD] in [please, when students have the name equal to anderson, update the age to 30.] : intent_filter
+2025-04-02 17:18:21,306 - INFO - [please, when students have the name equal to anderson, update the age to 30.] after mandatory treatment: [CRUD]
+2025-04-02 17:18:21,306 - INFO - return acceptable: [CRUD]
+2025-04-02 17:18:23,114 - INFO - treating: Yes, pipeline: intent_pipeline, user msg: please, when students have the name equal to anderson, update the age to 30., key: , entity: , intent: 
+2025-04-02 17:18:23,114 - INFO - mandatory treatment executed to [Yes] in [please, when students have the name equal to anderson, update the age to 30.] : intent_filter
+2025-04-02 17:18:23,114 - INFO - [please, when students have the name equal to anderson, update the age to 30.] after mandatory treatment: [Yes]
+2025-04-02 17:18:23,114 - INFO - return acceptable: [Yes]
+2025-04-02 17:18:25,374 - INFO - treating: anderson, pipeline: entity_pipeline, user msg: update students setting the age to 42 when name is anderson, key: , entity: , intent: UPDATE
+2025-04-02 17:18:25,374 - INFO - mandatory treatment executed to [anderson] in [update students setting the age to 42 when name is anderson] : entity_filter
+2025-04-02 17:18:25,776 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: [anderson]
+2025-04-02 17:18:26,267 - INFO - answer [anderson] of [update students setting the age to 42 when name is anderson] failed in validation: ignoring_noun_test
+2025-04-02 17:18:26,596 - INFO - new input generated: [students]
+2025-04-02 17:18:26,596 - INFO - mandatory treatment executed to [students] in [update students setting the age to 42 when name is anderson] : entity_filter
+2025-04-02 17:18:27,001 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: [students]
+2025-04-02 17:18:27,312 - INFO - return acceptable: [students]
+2025-04-02 17:18:29,266 - INFO - treating: name is anderson, pipeline: filter_pipeline, user msg: update students setting the age to 42 when name is anderson, key: , entity: student, intent: UPDATE
+2025-04-02 17:18:29,267 - INFO - return acceptable: [name is anderson]
+2025-04-02 17:18:30,604 - INFO - treating: 42, pipeline: attributes_pipeline, user msg: update students setting the age to 42 when name is anderson, key: age, entity: student, intent: UPDATE
+2025-04-02 17:18:30,605 - INFO - mandatory treatment executed to [42] in [update students setting the age to 42 when name is anderson] : similarity_filter
+2025-04-02 17:18:30,605 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: [42]
+2025-04-02 17:18:30,605 - INFO - mandatory treatment executed to [42] in [update students setting the age to 42 when name is anderson] : clean_aux
+2025-04-02 17:18:30,997 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: [42]
+2025-04-02 17:18:32,425 - INFO - return acceptable: [42]
+2025-04-02 17:18:33,733 - INFO - treating: name, pipeline: attributes_pipeline, user msg: update students setting the age to 42 when name is anderson, key: name, entity: student, intent: UPDATE
+2025-04-02 17:18:33,733 - INFO - mandatory treatment executed to [name] in [update students setting the age to 42 when name is anderson] : similarity_filter
+2025-04-02 17:18:33,733 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: []
+2025-04-02 17:18:33,733 - INFO - mandatory treatment executed to [] in [update students setting the age to 42 when name is anderson] : clean_aux
+2025-04-02 17:18:34,075 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: []
+2025-04-02 17:18:34,075 - INFO - answer [] of [update students setting the age to 42 when name is anderson] failed in validation: length_validation
+2025-04-02 17:18:34,075 - INFO - new input generated: [ is anderson]
+2025-04-02 17:18:34,075 - INFO - mandatory treatment executed to [ is anderson] in [update students setting the age to 42 when name is anderson] : similarity_filter
+2025-04-02 17:18:34,075 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: [is anderson]
+2025-04-02 17:18:34,076 - INFO - mandatory treatment executed to [is anderson] in [update students setting the age to 42 when name is anderson] : clean_aux
+2025-04-02 17:18:34,478 - INFO - [update students setting the age to 42 when name is anderson] after mandatory treatment: [anderson]
+2025-04-02 17:18:35,913 - INFO - return acceptable: [anderson]
+2025-04-02 17:18:38,376 - INFO - treating: anderson, pipeline: entity_pipeline, user msg: update students set the age to 42 when name is anderson, key: , entity: , intent: UPDATE
+2025-04-02 17:18:38,377 - INFO - mandatory treatment executed to [anderson] in [update students set the age to 42 when name is anderson] : entity_filter
+2025-04-02 17:18:38,986 - INFO - [update students set the age to 42 when name is anderson] after mandatory treatment: [anderson]
+2025-04-02 17:18:39,318 - INFO - answer [anderson] of [update students set the age to 42 when name is anderson] failed in validation: ignoring_noun_test
+2025-04-02 17:18:39,712 - INFO - new input generated: [update]
+2025-04-02 17:18:39,712 - INFO - mandatory treatment executed to [update] in [update students set the age to 42 when name is anderson] : entity_filter
+2025-04-02 17:18:40,014 - INFO - [update students set the age to 42 when name is anderson] after mandatory treatment: [update]
+2025-04-02 17:18:40,422 - INFO - return acceptable: [update]
+2025-04-02 17:18:42,713 - INFO - treating: anderson, pipeline: entity_pipeline, user msg: set students with age to 42 when name is anderson, key: , entity: , intent: UPDATE
+2025-04-02 17:18:42,713 - INFO - mandatory treatment executed to [anderson] in [set students with age to 42 when name is anderson] : entity_filter
+2025-04-02 17:18:43,090 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: [anderson]
+2025-04-02 17:18:43,493 - INFO - answer [anderson] of [set students with age to 42 when name is anderson] failed in validation: ignoring_noun_test
+2025-04-02 17:18:43,985 - INFO - new input generated: [students]
+2025-04-02 17:18:43,985 - INFO - mandatory treatment executed to [students] in [set students with age to 42 when name is anderson] : entity_filter
+2025-04-02 17:18:44,307 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: [students]
+2025-04-02 17:18:44,721 - INFO - return acceptable: [students]
+2025-04-02 17:18:46,492 - INFO - treating: name is anderson, pipeline: filter_pipeline, user msg: set students with age to 42 when name is anderson, key: , entity: student, intent: UPDATE
+2025-04-02 17:18:46,493 - INFO - return acceptable: [name is anderson]
+2025-04-02 17:18:47,920 - INFO - treating: 42, pipeline: attributes_pipeline, user msg: set students with age to 42 when name is anderson, key: age, entity: student, intent: UPDATE
+2025-04-02 17:18:47,920 - INFO - mandatory treatment executed to [42] in [set students with age to 42 when name is anderson] : similarity_filter
+2025-04-02 17:18:47,920 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: [42]
+2025-04-02 17:18:47,920 - INFO - mandatory treatment executed to [42] in [set students with age to 42 when name is anderson] : clean_aux
+2025-04-02 17:18:48,303 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: [42]
+2025-04-02 17:18:49,733 - INFO - return acceptable: [42]
+2025-04-02 17:18:51,022 - INFO - treating: name, pipeline: attributes_pipeline, user msg: set students with age to 42 when name is anderson, key: name, entity: student, intent: UPDATE
+2025-04-02 17:18:51,022 - INFO - mandatory treatment executed to [name] in [set students with age to 42 when name is anderson] : similarity_filter
+2025-04-02 17:18:51,022 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: []
+2025-04-02 17:18:51,022 - INFO - mandatory treatment executed to [] in [set students with age to 42 when name is anderson] : clean_aux
+2025-04-02 17:18:51,380 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: []
+2025-04-02 17:18:51,380 - INFO - answer [] of [set students with age to 42 when name is anderson] failed in validation: length_validation
+2025-04-02 17:18:51,380 - INFO - new input generated: [ is anderson]
+2025-04-02 17:18:51,380 - INFO - mandatory treatment executed to [ is anderson] in [set students with age to 42 when name is anderson] : similarity_filter
+2025-04-02 17:18:51,380 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: [is anderson]
+2025-04-02 17:18:51,380 - INFO - mandatory treatment executed to [is anderson] in [set students with age to 42 when name is anderson] : clean_aux
+2025-04-02 17:18:51,686 - INFO - [set students with age to 42 when name is anderson] after mandatory treatment: [anderson]
+2025-04-02 17:18:53,212 - INFO - return acceptable: [anderson]
+2025-04-02 17:18:55,748 - INFO - treating: adolescent, pipeline: entity_pipeline, user msg: for students with name anderson, update the age to 42, key: , entity: , intent: UPDATE
+2025-04-02 17:18:55,748 - INFO - mandatory treatment executed to [adolescent] in [for students with name anderson, update the age to 42] : entity_filter
+2025-04-02 17:18:56,097 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: [adolescent]
+2025-04-02 17:18:56,513 - INFO - answer [adolescent] of [for students with name anderson, update the age to 42] failed in validation: in_msg_test
+2025-04-02 17:18:56,927 - INFO - new input generated: [students]
+2025-04-02 17:18:56,927 - INFO - mandatory treatment executed to [students] in [for students with name anderson, update the age to 42] : entity_filter
+2025-04-02 17:18:57,313 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: [students]
+2025-04-02 17:18:57,740 - INFO - return acceptable: [students]
+2025-04-02 17:18:59,685 - INFO - treating: age to 42, pipeline: filter_pipeline, user msg: for students with name anderson, update the age to 42, key: , entity: student, intent: UPDATE
+2025-04-02 17:18:59,685 - INFO - return acceptable: [age to 42]
+2025-04-02 17:19:01,036 - INFO - treating: name, pipeline: attributes_pipeline, user msg: for students with name anderson, update the age to 42, key: name, entity: student, intent: UPDATE
+2025-04-02 17:19:01,036 - INFO - mandatory treatment executed to [name] in [for students with name anderson, update the age to 42] : similarity_filter
+2025-04-02 17:19:01,036 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: []
+2025-04-02 17:19:01,037 - INFO - mandatory treatment executed to [] in [for students with name anderson, update the age to 42] : clean_aux
+2025-04-02 17:19:01,425 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: []
+2025-04-02 17:19:01,425 - INFO - answer [] of [for students with name anderson, update the age to 42] failed in validation: length_validation
+2025-04-02 17:19:01,426 - INFO - new input generated: [ anderson]
+2025-04-02 17:19:01,426 - INFO - mandatory treatment executed to [ anderson] in [for students with name anderson, update the age to 42] : similarity_filter
+2025-04-02 17:19:01,426 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: [anderson]
+2025-04-02 17:19:01,426 - INFO - mandatory treatment executed to [anderson] in [for students with name anderson, update the age to 42] : clean_aux
+2025-04-02 17:19:01,827 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: [anderson]
+2025-04-02 17:19:03,356 - INFO - return acceptable: [anderson]
+2025-04-02 17:19:05,297 - INFO - treating: age, pipeline: attributes_pipeline, user msg: for students with name anderson, update the age to 42, key: age, entity: student, intent: UPDATE
+2025-04-02 17:19:05,297 - INFO - mandatory treatment executed to [age] in [for students with name anderson, update the age to 42] : similarity_filter
+2025-04-02 17:19:05,297 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: []
+2025-04-02 17:19:05,297 - INFO - mandatory treatment executed to [] in [for students with name anderson, update the age to 42] : clean_aux
+2025-04-02 17:19:06,237 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: []
+2025-04-02 17:19:06,237 - INFO - answer [] of [for students with name anderson, update the age to 42] failed in validation: length_validation
+2025-04-02 17:19:06,237 - INFO - new input generated: [ to 42]
+2025-04-02 17:19:06,237 - INFO - mandatory treatment executed to [ to 42] in [for students with name anderson, update the age to 42] : similarity_filter
+2025-04-02 17:19:06,237 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: [to 42]
+2025-04-02 17:19:06,237 - INFO - mandatory treatment executed to [to 42] in [for students with name anderson, update the age to 42] : clean_aux
+2025-04-02 17:19:06,631 - INFO - [for students with name anderson, update the age to 42] after mandatory treatment: [to 42]
+2025-04-02 17:19:08,856 - INFO - return acceptable: [to 42]
+2025-04-02 17:19:11,743 - INFO - treating: adolescent, pipeline: entity_pipeline, user msg: please change student with name anderson update age to 30, key: , entity: , intent: UPDATE
+2025-04-02 17:19:11,743 - INFO - mandatory treatment executed to [adolescent] in [please change student with name anderson update age to 30] : entity_filter
+2025-04-02 17:19:12,086 - INFO - [please change student with name anderson update age to 30] after mandatory treatment: [adolescent]
+2025-04-02 17:19:12,478 - INFO - answer [adolescent] of [please change student with name anderson update age to 30] failed in validation: in_msg_test
+2025-04-02 17:19:12,891 - INFO - new input generated: [student]
+2025-04-02 17:19:12,891 - INFO - mandatory treatment executed to [student] in [please change student with name anderson update age to 30] : entity_filter
+2025-04-02 17:19:13,297 - INFO - [please change student with name anderson update age to 30] after mandatory treatment: [student]
+2025-04-02 17:19:13,711 - INFO - return acceptable: [student]
